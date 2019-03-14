@@ -6,6 +6,10 @@ public class Bucket_Balance : MonoBehaviour
 {
     public float force;
 
+    public float randomForce;
+    public float noiseScale;
+
+
     Rigidbody rb;
 
     float randomNoiseStartX;
@@ -14,8 +18,7 @@ public class Bucket_Balance : MonoBehaviour
     float noiseScroller = 0;
     public float noiseInc;
 
-    public float randomForce;
-
+    
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -27,7 +30,8 @@ public class Bucket_Balance : MonoBehaviour
     void FixedUpdate()
     {
         noiseScroller += noiseInc;
-        AddRandomForce();
+        print((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY) * 2f) - 1f);
+        AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY) * 2f) - 1f);
         AddForce();
     }
 
@@ -35,15 +39,13 @@ public class Bucket_Balance : MonoBehaviour
         float hAxis = Input.GetAxis("Horizontal");
         Vector3 forceVector = transform.TransformPoint(new Vector3(hAxis * force, 0, 0));
 
-        rb.AddForce(forceVector, ForceMode.Force);
+        rb.AddForce(forceVector, ForceMode.Acceleration);
     }
 
-    void AddRandomForce() {
-        float noiseValue = Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY) * 2 - 1;
-
-        print(noiseValue);
-
-        Vector3 forceVector = transform.TransformPoint(new Vector3(noiseValue * randomForce, 0, 0));
-        rb.AddForce(forceVector, ForceMode.Force);
+    void AddRandomForce(float NoiseVal)
+    {
+        NoiseVal *= noiseScale;
+        Vector3 forceVector = transform.TransformPoint(new Vector3(NoiseVal * randomForce, 0, 0));
+        rb.AddForce(forceVector, ForceMode.Acceleration);
     }
 }

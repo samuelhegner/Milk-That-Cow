@@ -19,6 +19,6 @@ public class Noise_Value_Tester : MonoBehaviour
         noiseScroller += noiseInc * Time.deltaTime;
         float noiseValue = Mathf.PerlinNoise(0 + noiseScroller, 0) * 2 - 1;
 
-        transform.position = new Vector3(0, noiseValue, 0);
+        transform.position = new Vector3(8, noiseValue, 0);
     }
 }
