@@ -20,6 +20,8 @@ public class Bucket_Balance : MonoBehaviour
 
     public RectTransform arrow;
 
+    public float maxForce = 0;
+
     
     void Awake()
     {
@@ -31,30 +33,31 @@ public class Bucket_Balance : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        rb.velocity = Vector3.zero;
+        maxForce = force + (randomForce * noiseScale);
         noiseScroller += noiseInc;
-        print((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f + " : " + noiseScroller);
-        AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f);
-        AddForce();
-        SetTiltOmeter((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f);
+        Vector3 totalForce = AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) + AddForce();
+        rb.AddForce(totalForce, ForceMode.VelocityChange);
+        SetTiltOmeter((Input.GetAxis("Horizontal")* force) + ((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f)* noiseScale * randomForce);
     }
 
-    void AddForce() {
+    Vector3 AddForce() {
         float hAxis = Input.GetAxis("Horizontal");
         Vector3 forceVector = transform.TransformPoint(new Vector3(hAxis * force, 0, 0));
 
-        rb.AddForce(forceVector, ForceMode.Force);
+        return forceVector;
     }
 
-    void AddRandomForce(float NoiseVal)
+    Vector3 AddRandomForce(float NoiseVal)
     {
         NoiseVal *= noiseScale;
         Vector3 forceVector = transform.TransformPoint(new Vector3(NoiseVal * randomForce, 0, 0));
-        rb.AddForce(forceVector, ForceMode.Force);
+        return forceVector;
     }
 
-    void SetTiltOmeter(float NoiseVal) {
+    void SetTiltOmeter(float forceInput) {
 
-        float zRot = Game_Manager.Map(NoiseVal, -1f, 1f, 89f, -89f);
+        float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
         arrow.rotation = Quaternion.Euler(new Vector3(0, 0, zRot));
     }
 }
