@@ -22,6 +22,7 @@ public class Bucket_Balance : MonoBehaviour
 
     public float maxForce = 0;
 
+    public float maxSpeed;
     
     void Awake()
     {
@@ -33,11 +34,11 @@ public class Bucket_Balance : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.velocity = Vector3.zero;
         maxForce = force + (randomForce * noiseScale);
         noiseScroller += noiseInc;
         Vector3 totalForce = AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) + AddForce();
-        rb.AddForce(totalForce, ForceMode.VelocityChange);
+        rb.AddForce(totalForce, ForceMode.Force);
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
         SetTiltOmeter((Input.GetAxis("Horizontal")* force) + ((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f)* noiseScale * randomForce);
     }
 

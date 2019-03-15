@@ -653,12 +653,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7153575abb8275e4a91171387269d39a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
-  randomForce: 5
-  noiseScale: 1
+  force: 50
+  randomForce: 20
+  noiseScale: 2
   noiseInc: 0.01
   arrow: {fileID: 969662056}
   maxForce: 0
+  maxSpeed: 0.1
 --- !u!1 &798753232
 GameObject:
   m_ObjectHideFlags: 0
