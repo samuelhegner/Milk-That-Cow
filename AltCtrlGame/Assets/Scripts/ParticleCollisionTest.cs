@@ -27,7 +27,7 @@ public class ParticleCollisionTest : MonoBehaviour
     {
         //return;
         Debug.Log("Particle trigger" + col.name);
-        Destroy(col.gameObject);
+        //Destroy(col.gameObject);
         milkCount++;
         Debug.Log(milkCount);
     }

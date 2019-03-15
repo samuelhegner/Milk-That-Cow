@@ -133,6 +133,10 @@ namespace NVIDIA.Flex
 
         void UpdateParticles(FlexContainer.ParticleData _particleData)
         {
+            if (!Input.GetKey(KeyCode.Space))
+            {
+                return;
+            }
             if (handle && m_indices != null && m_indices.Length > 0)
             {
                 float dT = Application.isPlaying ? Time.fixedDeltaTime : 0;
@@ -156,10 +160,7 @@ namespace NVIDIA.Flex
                             newCount += m_currentContainer.AllocParticles(m_indices, m_count, spawnCount);
                             for (int i = m_count; i < newCount; ++i)
                             {
-                                if (!Input.GetKeyDown(KeyCode.Space))
-                                {
-                                    continue;
-                                }
+                                
                                 int index = m_indices[i];
                                 int nozzle = i - m_count;
                                 _particleData.SetPhase(index, m_phase);
