@@ -1,6 +1,6 @@
 ﻿namespace Water2D
 {
-    using DynamicLight2D;
+    //using DynamicLight2D;
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
@@ -18,6 +18,7 @@
 		}
 	}
 
+    [RequireComponent(typeof(Core))]
 	public class Water2D_Spawner : MonoBehaviour
 	{
 
