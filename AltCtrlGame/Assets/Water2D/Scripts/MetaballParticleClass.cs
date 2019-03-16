@@ -49,6 +49,7 @@ public class MetaballParticleClass : MonoBehaviour
             if (delta > LifeTime)
             {
                 delta *= 0;
+                MilkSpawner.particleList.Remove(this.gameObject);
                 Destroy(gameObject, 0.5f);
                 Active = false;
             }

@@ -18,7 +18,7 @@ public class MilkSpawner : MonoBehaviour
     [Range(0f, 2f)] public float size = 0.45f;
     public Vector2 initalVelocity = new Vector2(0.0f, -4.0f);
 
-    public int maxParticleCount;
+    public int maxParticleCount = 1000;
     public int burstCount;
     //public string teamTag;
     //public KeyCode DebugKeyCode;
@@ -54,6 +54,12 @@ public class MilkSpawner : MonoBehaviour
 
         for (int i = 0; i < burstCount; i++)
         {
+
+            if (particleList.Count > maxParticleCount)
+            {
+                Debug.LogWarning("MAX PARTICLE COUNT REACHED! INCREASE PARTICLE LIMIT ON THE FOLLOWING OBJECT: " + gameObject.name);
+                break;
+            }
             var particle = Instantiate(particlePrefab, spawnPos.position, Quaternion.identity);
             particle.transform.SetParent(this.transform);
             particle.transform.localScale = new Vector3(size, size, 1f);

@@ -79,7 +79,7 @@ MonoBehaviour:
   outlineColor: {r: 220, g: 217, b: 205, a: 1}
   delayBetweenParticles: 0.05
   particleLifeTime: 5
-  size: 0.45
+  size: 0.6
   initalVelocity: {x: 0, y: -4}
-  maxParticleCount: 0
-  burstCount: 20
+  maxParticleCount: 1000
+  burstCount: 10

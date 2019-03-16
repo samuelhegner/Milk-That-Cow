@@ -19,7 +19,7 @@ public class MilkCollision : MonoBehaviour
 
             col.GetComponent<MetaballParticleClass>().IsInfinite = true;
             col.GetComponent<MetaballParticleClass>().witinTarget = true;
-            col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         }
         else
         {
@@ -36,7 +36,7 @@ public class MilkCollision : MonoBehaviour
 
             col.GetComponent<MetaballParticleClass>().IsInfinite = false;
             col.GetComponent<MetaballParticleClass>().witinTarget = false;
-            col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Discrete;
+            //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Discrete;
         }
     }
 }
