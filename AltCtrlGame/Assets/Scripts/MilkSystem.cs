@@ -1,6 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class MilkSystem : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class MilkSystem : MonoBehaviour
     int player1PreviousButton = 1;
     int player2PreviousButton = 1;
 
+
+    public MilkSpawner milkSpawner;
+    [SerializeField] private TeamInfo team1TeamInfo;
+    [SerializeField] private TeamInfo team2TeamInfo;
 
 
     
@@ -62,14 +67,24 @@ public class MilkSystem : MonoBehaviour
             p1Clicked = false;
             if (Input.GetButtonDown("Milk1Right") && player1PreviousButton == 2)
             {
-                p1Score++;                //Replace with milk added to Bucket
+                //p1Score++;                //Replace with milk added to Bucket
+                milkSpawner.SpawnBurst(
+                    team1TeamInfo.udderRight,
+                    team1TeamInfo.teamTag
+                    );
+
                 p1Clicked = true;
                 player1PreviousButton = 1;
             }
 
             if (Input.GetButtonDown("Milk1_Left")&& player1PreviousButton == 1 && p1Clicked == false)
             {
-                p1Score++;                //Replace with milk added to Bucket
+                //p1Score++;                //Replace with milk added to Bucket
+                milkSpawner.SpawnBurst(
+                    team1TeamInfo.udderLeft,
+                    team1TeamInfo.teamTag
+                );
+
                 p1Clicked = true;
                 player1PreviousButton = 2;
             }
@@ -98,22 +113,38 @@ public class MilkSystem : MonoBehaviour
             p2Clicked = false;
             if (Input.GetButtonDown("Milk2_Right") && player2PreviousButton == 2)
             {
-                p2Score++;                //Replace with milk added to Bucket
+                //p2Score++;                //Replace with milk added to Bucket
+                milkSpawner.SpawnBurst(
+                    team2TeamInfo.udderRight,
+                    team2TeamInfo.teamTag
+                );
+
                 p2Clicked = true;
                 player2PreviousButton = 1;
             }
 
             if (Input.GetButtonDown("Milk2_Left")&& player2PreviousButton == 1 && p2Clicked == false)
             {
-                p2Score++;                //Replace with milk added to Bucket
+                //p2Score++;                //Replace with milk added to Bucket
+                milkSpawner.SpawnBurst(
+                    team2TeamInfo.udderLeft,
+                    team2TeamInfo.teamTag
+                );
+
                 p2Clicked = true;
                 player2PreviousButton = 2;
             }
 
 
         }
-        
+    }
 
-        
+    [Serializable]
+    private struct TeamInfo
+    {
+        //public MilkSpawner milkSpawner;
+        public Transform udderLeft;
+        public Transform udderRight;
+        public string teamTag;
     }
 }

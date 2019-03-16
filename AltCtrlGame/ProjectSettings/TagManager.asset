@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Metaball_liquid
+  - Team1
+  - Team2
   layers:
   - Default
   - TransparentFX

@@ -52,6 +52,7 @@ public class MetaballParticleClass : MonoBehaviour
             if (delta > LifeTime)
             {
                 delta *= 0;
+                Destroy(gameObject, 0.5f);
                 Active = false;
             }
             else
