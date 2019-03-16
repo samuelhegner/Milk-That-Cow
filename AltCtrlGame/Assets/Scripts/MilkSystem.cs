@@ -20,6 +20,7 @@ public class MilkSystem : MonoBehaviour
 
 
     public MilkSpawner milkSpawner;
+    public float scoreModifier = 1.0f;
     [SerializeField] private TeamInfo team1TeamInfo;
     [SerializeField] private TeamInfo team2TeamInfo;
 
@@ -42,6 +43,30 @@ public class MilkSystem : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void AddOrRemoveMilk(string teamTag, bool addingMilk)
+    {
+        if (teamTag == team1TeamInfo.teamTag)
+        {
+            team1TeamInfo.milkCount += (addingMilk) ? 1 : -1;
+
+            RecalulateScore(team1TeamInfo);
+        }
+        else
+        {
+            team2TeamInfo.milkCount += (addingMilk) ? 1 : -1;
+
+            RecalulateScore(team2TeamInfo);
+        }
+
+        
+    }
+
+    private void RecalulateScore(TeamInfo teamInfo)
+    {
+        teamInfo.score = teamInfo.milkCount * scoreModifier;
+        Debug.Log(teamInfo.teamTag + " score is: " + teamInfo.score);
     }
 
 
@@ -146,5 +171,7 @@ public class MilkSystem : MonoBehaviour
         public Transform udderLeft;
         public Transform udderRight;
         public string teamTag;
+        [HideInInspector] public int milkCount;
+        [HideInInspector] public float score;
     }
 }

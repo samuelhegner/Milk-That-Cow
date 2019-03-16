@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3152105381733089341}
   m_Layer: 0
   m_Name: MilkManager
-  m_TagString: Untagged
+  m_TagString: MilkManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,14 +48,19 @@ MonoBehaviour:
   p2Score: 0
   delayTimer: 0.01
   milkSpawner: {fileID: 3152105381733089341}
+  scoreModifier: 1
   team1TeamInfo:
     udderLeft: {fileID: 0}
     udderRight: {fileID: 0}
     teamTag: Team1
+    milkCount: 0
+    score: 0
   team2TeamInfo:
     udderLeft: {fileID: 0}
     udderRight: {fileID: 0}
     teamTag: Team2
+    milkCount: 0
+    score: 0
 --- !u!114 &3152105381733089341
 MonoBehaviour:
   m_ObjectHideFlags: 0

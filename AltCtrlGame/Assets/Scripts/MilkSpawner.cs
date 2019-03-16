@@ -52,7 +52,7 @@ public class MilkSpawner : MonoBehaviour
     {
         int count = burstCount;
 
-        for (int i = 1; i < burstCount; i++)
+        for (int i = 0; i < burstCount; i++)
         {
             var particle = Instantiate(particlePrefab, spawnPos.position, Quaternion.identity);
             particle.transform.SetParent(this.transform);

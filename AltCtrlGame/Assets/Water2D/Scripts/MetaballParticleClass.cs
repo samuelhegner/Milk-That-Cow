@@ -2,10 +2,16 @@
 
 public class MetaballParticleClass : MonoBehaviour
 {
-
+    private bool _active;
+    private float delta;
+    public bool IsInfinite = false;
+    public float LifeTime;
 
     public GameObject masterObject;
-    public float LifeTime;
+    private Rigidbody2D rigidBod;
+    private TrailRenderer trailRenderer;
+    public bool witinTarget; 
+
     public bool Active
     {
         get => _active;
@@ -18,18 +24,9 @@ public class MetaballParticleClass : MonoBehaviour
 
                 if (trailRenderer)
                     trailRenderer.Clear();
-
             }
         }
     }
-    public bool witinTarget; // si esta dentro de la zona de vaso de vidrio en la meta
-
-
-
-    private bool _active;
-    private float delta;
-    private Rigidbody2D rigidBod;
-    private TrailRenderer trailRenderer;
 
     private void Start()
     {
@@ -40,14 +37,14 @@ public class MetaballParticleClass : MonoBehaviour
 
     private void Update()
     {
-
-        if (Active == true)
+        if (Active)
         {
-
             VelocityLimiter();
 
             if (LifeTime < 0)
                 return;
+
+            if (IsInfinite) return;
 
             if (delta > LifeTime)
             {
@@ -59,22 +56,13 @@ public class MetaballParticleClass : MonoBehaviour
             {
                 delta += Time.deltaTime;
             }
-
-
         }
-
     }
 
     private void VelocityLimiter()
     {
-
-
-        Vector2 _vel = rigidBod.velocity;
-        if (_vel.y < -8f)
-        {
-            _vel.y = -8f;
-        }
+        var _vel = rigidBod.velocity;
+        if (_vel.y < -8f) _vel.y = -8f;
         rigidBod.velocity = _vel;
     }
-
 }

@@ -7,6 +7,7 @@ TagManager:
   - Metaball_liquid
   - Team1
   - Team2
+  - MilkManager
   layers:
   - Default
   - TransparentFX
