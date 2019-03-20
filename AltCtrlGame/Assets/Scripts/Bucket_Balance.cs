@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Bucket_Balance : MonoBehaviour
 {
+    [Header("Axis to use:")]
+    [Tooltip("Set the Input Axis to be used (leave empty to default to to horizontal axis)")]
+    public string InputAxis;
+    [Tooltip("Force of player Input")]
     public float force;
-
+    [Tooltip("Force of random noise (value should be lower than force)")]
     public float randomForce;
+    [Tooltip("Scales the noise")]
     public float noiseScale;
 
 
@@ -31,7 +36,6 @@ public class Bucket_Balance : MonoBehaviour
         randomNoiseStartY = Random.Range(-1000, 1000);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         maxForce = force + (randomForce * noiseScale);
@@ -43,7 +47,15 @@ public class Bucket_Balance : MonoBehaviour
     }
 
     Vector3 AddForce() {
-        float hAxis = Input.GetAxis("Horizontal");
+        float hAxis;
+
+        //Sets the Input to custum axis or or defaults to horizontal axis
+        if (InputAxis != ""){
+            hAxis = Input.GetAxis(InputAxis);
+        }else{
+            hAxis = Input.GetAxis("Horizontal");
+        }
+
         Vector3 forceVector = transform.TransformPoint(new Vector3(hAxis * force, 0, 0));
 
         return forceVector;
