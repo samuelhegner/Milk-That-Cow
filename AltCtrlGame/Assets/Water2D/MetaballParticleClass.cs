@@ -2,7 +2,8 @@
 
 public class MetaballParticleClass : MonoBehaviour
 {
-    private bool _active;
+    private bool active;
+    private bool trailRendererActive;
     private float delta;
     public bool IsInfinite = false;
     public float LifeTime;
@@ -14,16 +15,30 @@ public class MetaballParticleClass : MonoBehaviour
 
     public bool Active
     {
-        get => _active;
+        get => active;
         set
         {
-            _active = value;
+            active = value;
             if (masterObject)
             {
                 masterObject.SetActive(value);
 
                 if (trailRenderer)
                     trailRenderer.Clear();
+            }
+        }
+    }
+
+    public bool SetTrailRenderer
+    {
+        get => trailRendererActive;
+        set
+        {
+            trailRendererActive = value;
+            if (trailRenderer)
+            {
+                trailRenderer.Clear();
+                trailRenderer.enabled = value;
             }
         }
     }

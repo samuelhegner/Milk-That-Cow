@@ -7,12 +7,6 @@ public class MilkSpawner : MonoBehaviour
     public GameObject particlePrefab;
     public static List<GameObject> particleList;
 
-
-    public Material particleMaterial;
-    public Color fillColor = new Color(220f, 217f, 205f);
-    public Color outlineColor = new Color(220f, 217f, 205f);
-
-
     [Range(0f, 1f)] public float delayBetweenParticles = 0.05f;
     [Range(0f, 100f)] public float particleLifeTime = 5.0f;
     [Range(0f, 2f)] public float size = 0.45f;
@@ -26,7 +20,6 @@ public class MilkSpawner : MonoBehaviour
     void Awake()
     {
         particleList = new List<GameObject>();
-        SetMaterialColor(fillColor, outlineColor);
     }
 
     //void Update()
@@ -38,19 +31,25 @@ public class MilkSpawner : MonoBehaviour
     //    }
     //}
 
-    public void SpawnBurst(Transform spawnPos, string playerTag)
+    /// <summary>
+    /// Spawns a burst of milk particles
+    /// </summary>
+    /// <param name="spawnPos">Spawn position of the particles</param>  
+    /// <param name="teamTag">Tag of team</param>
+    /// <param name="burstCount">Number of milk particles to spawn</param>
+    public void SpawnBurst(Transform spawnPos, string teamTag, int burstCount = 0)
     {
-        StartCoroutine(SpawnRoutine(spawnPos, playerTag));
-    }
-    public void SetMaterialColor(Color fill, Color stroke)
-    {
-        particleMaterial.SetColor("_Color", fill);
-        particleMaterial.SetColor("_StrokeColor", stroke);
+        if (burstCount == 0)
+        {
+            burstCount = this.burstCount;
+        }
+
+        StartCoroutine(SpawnRoutine(spawnPos, teamTag, burstCount));
     }
 
-    private IEnumerator SpawnRoutine(Transform spawnPos, string playerTag)
+    private IEnumerator SpawnRoutine(Transform spawnPos, string teamTag, int burstCount)
     {
-        int count = burstCount;
+        
 
         for (int i = 0; i < burstCount; i++)
         {
@@ -63,7 +62,7 @@ public class MilkSpawner : MonoBehaviour
             var particle = Instantiate(particlePrefab, spawnPos.position, Quaternion.identity);
             particle.transform.SetParent(this.transform);
             particle.transform.localScale = new Vector3(size, size, 1f);
-            particle.tag = playerTag;
+            particle.tag = teamTag;
             particleList.Add(particle);
 
 

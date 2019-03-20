@@ -59,8 +59,6 @@ public class MilkSystem : MonoBehaviour
 
             RecalulateScore(team2TeamInfo);
         }
-
-        
     }
 
     private void RecalulateScore(TeamInfo teamInfo)
@@ -110,6 +108,8 @@ public class MilkSystem : MonoBehaviour
                     team1TeamInfo.teamTag
                 );
 
+
+                //milkSpawner.SpawnBurst();
                 p1Clicked = true;
                 player1PreviousButton = 2;
             }
