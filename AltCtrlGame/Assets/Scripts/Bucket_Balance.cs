@@ -71,6 +71,6 @@ public class Bucket_Balance : MonoBehaviour
     void SetTiltOmeter(float forceInput) {
 
         float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
-        arrow.rotation = Quaternion.Euler(new Vector3(0, 0, zRot));
+        arrow.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(new Vector3(0, 0, zRot)), Time.fixedDeltaTime * 15f);
     }
 }
