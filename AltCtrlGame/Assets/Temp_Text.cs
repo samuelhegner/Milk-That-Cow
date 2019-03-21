@@ -36,6 +36,7 @@ public class Temp_Text : MonoBehaviour
             tmp.color = Color.Lerp(tmp.color, new Color(tmp.color.r, tmp.color.g, tmp.color.b, 0), Time.deltaTime * lerpSpeed * 2f);
 
             if (tmp.color.a < 0.01f) {
+                Text_Manager.inProg = false;
                 Destroy(gameObject);
             }
         }
