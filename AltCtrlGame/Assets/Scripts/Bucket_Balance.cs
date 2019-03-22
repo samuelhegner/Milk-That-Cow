@@ -32,17 +32,28 @@ public class Bucket_Balance : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        randomNoiseStartX = Random.Range(-1000, 1000);
-        randomNoiseStartY = Random.Range(-1000, 1000);
+        randomNoiseStartX = Random.Range(-100000, 100000);
+        randomNoiseStartY = Random.Range(-100000, 100000);
     }
 
     void FixedUpdate()
     {
+        //maximum force possible
         maxForce = force + (randomForce * noiseScale);
+
+        // moves noise 2d coordinate for next fixed frame
         noiseScroller += noiseInc;
-        Vector3 totalForce = AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) + AddForce();
+
+        //calculates the force to add this frame.
+        Vector3 totalForce = AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY - noiseScroller) * 2f) - 1f) + AddForce();
+
+        //adds the force to the rb
         rb.AddForce(totalForce, ForceMode.Force);
+
+        //clamps maxspeed
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+
+        //set the force visualizer
         SetTiltOmeter((Input.GetAxis("Horizontal")* force) + ((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f)* noiseScale * randomForce);
     }
 
@@ -69,8 +80,8 @@ public class Bucket_Balance : MonoBehaviour
     }
 
     void SetTiltOmeter(float forceInput) {
-
+        //maps the forces input onto a -89 to 89 degree rotation and sets the arrows rotation to it
         float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
-        arrow.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(new Vector3(0, 0, zRot)), Time.fixedDeltaTime * 15f);
+        arrow.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(new Vector3(0, 0, zRot)), Time.fixedDeltaTime * 15f);
     }
 }
