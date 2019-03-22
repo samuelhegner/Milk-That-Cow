@@ -59,8 +59,8 @@ public class Audience_Member : MonoBehaviour
 
     }
 
-    public IEnumerator ChangeState(ViewerState nextState) {
-        yield return new WaitForSeconds(Random.Range(0, 1f));
+    public IEnumerator ChangeState(ViewerState nextState, float maxDelay) {
+        yield return new WaitForSeconds(Random.Range(0, maxDelay));
         currentState = nextState;
     }
 
