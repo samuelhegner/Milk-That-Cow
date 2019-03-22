@@ -16,9 +16,9 @@ public class Crowd_Changer : MonoBehaviour
         audience = GameObject.FindObjectsOfType<Audience_Member>();
     }
 
-    public static void ChangeState(Audience_Member.ViewerState state) {
+    public static void ChangeState(Audience_Member.ViewerState state, float delay) {
         foreach (Audience_Member member in instance.audience) {
-            member.SendMessage("ChangeState", state);
+            member.StartCoroutine(member.ChangeState(state, delay));
         }
     }
 }

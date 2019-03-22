@@ -24,11 +24,11 @@ public class TextTester : MonoBehaviour
     void TryCrowd() {
         if (keep == 0)
         {
-            Crowd_Changer.ChangeState(Audience_Member.ViewerState.cheering);
+            Crowd_Changer.ChangeState(Audience_Member.ViewerState.cheering, 0f);
             keep++;
         }
         else {
-            Crowd_Changer.ChangeState(Audience_Member.ViewerState.idle);
+            Crowd_Changer.ChangeState(Audience_Member.ViewerState.idle, 1f);
             keep--;
         }
     }
