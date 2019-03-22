@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Audience_Member : MonoBehaviour
 {
+
+    public Camera audienceCamera;
     
     public enum ViewerState {
         idle,
@@ -41,6 +43,11 @@ public class Audience_Member : MonoBehaviour
                 Cheering();
                 break;
         }
+
+        /*if (currentState != ViewerState.idle)
+        {
+            audienceCamera.enabled = true;
+        }*/
     }
 
     void Idle() {
