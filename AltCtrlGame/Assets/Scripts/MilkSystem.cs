@@ -64,7 +64,7 @@ public class MilkSystem : MonoBehaviour
     private void RecalulateScore(TeamInfo teamInfo)
     {
         teamInfo.score = teamInfo.milkCount * scoreModifier;
-        Debug.Log(teamInfo.teamTag + " score is: " + teamInfo.score);
+        //Debug.Log(teamInfo.teamTag + " score is: " + teamInfo.score);
     }
 
 

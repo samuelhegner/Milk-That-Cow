@@ -19,7 +19,7 @@ public class MilkCollision : MonoBehaviour
         milkSystem = GameObject.FindGameObjectWithTag("MilkManager").GetComponent<MilkSystem>();
         if (gameObject.CompareTag("Untagged"))
         {
-            Debug.LogWarning(gameObject.name + " is not tagged with a team tag");
+            //Debug.LogWarning(gameObject.name + " is not tagged with a team tag");
         }
 
         if (!DontRegisterParticle)
@@ -41,7 +41,9 @@ public class MilkCollision : MonoBehaviour
                 Debug.Log("ParentChanged");
                 return;
             }
-            Debug.Log("Milk detected add score " + col.tag);
+
+            transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(1);
+            //Debug.Log("Milk detected add score " + col.tag);
             milkSystem.AddOrRemoveMilk(gameObject.tag, true);
 
 
@@ -59,14 +61,18 @@ public class MilkCollision : MonoBehaviour
         {
             col.GetComponent<MetaballParticleClass>().IsInfinite = false;
             col.GetComponent<MetaballParticleClass>().witinTarget = false;
+
+
             if (DontRegisterParticle)
             {
                 col.gameObject.transform.parent = null;
                 col.GetComponent<MetaballParticleClass>().SetTrailRenderer = true;
                 return;
             }
-            Debug.Log("Milk leaving remove score");
+
+            //Debug.Log("Milk leaving remove score");
             milkSystem.AddOrRemoveMilk(gameObject.tag, false);
+            transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(-1);
 
 
             //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Discrete;

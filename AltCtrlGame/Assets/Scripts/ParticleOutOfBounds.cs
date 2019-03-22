@@ -9,6 +9,8 @@ public class ParticleOutOfBounds : MonoBehaviour
         if (col.GetComponent<MetaballParticleClass>())
         {
             col.GetComponent<MetaballParticleClass>().LifeTime = 0;
+            col.GetComponent<MetaballParticleClass>().witinTarget = false;
+            col.GetComponent<MetaballParticleClass>().IsInfinite = false;
         }
     }
 }
