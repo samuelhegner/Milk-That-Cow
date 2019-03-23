@@ -12,12 +12,12 @@ public class DisplayScore : MonoBehaviour
     void Start()
     {
         SetText(data);
-        //StartCoroutine(reLoad());
+        StartCoroutine(reLoad());
     }
 
     private IEnumerator reLoad()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(10);
         SceneManager.LoadScene(0);
     }
 

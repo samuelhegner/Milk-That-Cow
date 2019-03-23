@@ -17,10 +17,10 @@ public class MilkBucket : MonoBehaviour
     {
         count += amount;
         //Debug.Log(count);
-        //if (CheckIfFull())
-        //{
-        //    SceneManager.LoadScene(1);
-        //}
+        if (CheckIfFull())
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     public bool CheckIfFull()
