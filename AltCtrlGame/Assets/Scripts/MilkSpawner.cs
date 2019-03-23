@@ -13,7 +13,7 @@ public class MilkSpawner : MonoBehaviour
     public Vector2 initalVelocity = new Vector2(0.0f, -4.0f);
 
     public int maxParticleCount = 1000;
-    public int burstCount;
+    //public int burstCount;
     //public string teamTag;
     //public KeyCode DebugKeyCode;
     //public Transform pos;
@@ -39,10 +39,10 @@ public class MilkSpawner : MonoBehaviour
     /// <param name="burstCount">Number of milk particles to spawn</param>
     public void SpawnBurst(Transform spawnPos, string teamTag, int burstCount = 0)
     {
-        if (burstCount == 0)
-        {
-            burstCount = this.burstCount;
-        }
+        //if (burstCount == 0)
+        //{
+        //    burstCount = this.burstCount;
+        //}
 
         StartCoroutine(SpawnRoutine(spawnPos, teamTag, burstCount));
     }

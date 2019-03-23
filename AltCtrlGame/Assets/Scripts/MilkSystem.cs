@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+
 public class MilkSystem : MonoBehaviour
 {
     public int p1Score = 0;
@@ -18,17 +19,20 @@ public class MilkSystem : MonoBehaviour
     int player1PreviousButton = 1;
     int player2PreviousButton = 1;
 
-
+    public int milkSpawnAmount = 4;
     public MilkSpawner milkSpawner;
     public float scoreModifier = 1.0f;
-    [SerializeField] private TeamInfo team1TeamInfo;
-    [SerializeField] private TeamInfo team2TeamInfo;
+    [SerializeField] public TeamInfo team1TeamInfo;
+    [SerializeField] public TeamInfo team2TeamInfo;
 
 
     
     // Start is called before the first frame update
     void Start()
     {
+        ScoreManager.RegisterTeam(team1TeamInfo.teamTag, 0);
+        ScoreManager.RegisterTeam(team2TeamInfo.teamTag, 1);
+
         StartCoroutine(MilkClickedP1());
         StartCoroutine(MilkClickedP2());
         
@@ -45,27 +49,29 @@ public class MilkSystem : MonoBehaviour
         
     }
 
-    public void AddOrRemoveMilk(string teamTag, bool addingMilk)
-    {
-        if (teamTag == team1TeamInfo.teamTag)
-        {
-            team1TeamInfo.milkCount += (addingMilk) ? 1 : -1;
+    //public void AddOrRemoveMilk(string teamTag, bool addingMilk)
+    //{
+    //    if (teamTag == team1TeamInfo.teamTag)
+    //    {
+    //        team1TeamInfo.scoreData.milkCaughtInBucket += (addingMilk) ? 1 : -1;
 
-            RecalulateScore(team1TeamInfo);
-        }
-        else
-        {
-            team2TeamInfo.milkCount += (addingMilk) ? 1 : -1;
+    //        //RecalulateScore(team1TeamInfo);
+    //        ScoreManager.UpdateScoreData(team1TeamInfo.scoreData);
+    //    }
+    //    else
+    //    {
+    //        team2TeamInfo.scoreData.milkCaughtInBucket += (addingMilk) ? 1 : -1;
 
-            RecalulateScore(team2TeamInfo);
-        }
-    }
+    //        ScoreManager.UpdateScoreData(team2TeamInfo.scoreData);
+    //        //RecalulateScore(team2TeamInfo);
+    //    }
+    //}
 
-    private void RecalulateScore(TeamInfo teamInfo)
-    {
-        teamInfo.score = teamInfo.milkCount * scoreModifier;
-        //Debug.Log(teamInfo.teamTag + " score is: " + teamInfo.score);
-    }
+    //private void RecalulateScore(TeamInfo teamInfo)
+    //{
+    //    teamInfo.score = teamInfo.milkCount * scoreModifier;
+    //    //Debug.Log(teamInfo.teamTag + " score is: " + teamInfo.score);
+    //}
 
 
     private IEnumerator MilkClickedP1()
@@ -90,11 +96,14 @@ public class MilkSystem : MonoBehaviour
             p1Clicked = false;
             if (Input.GetButtonDown("Milk1Right") && player1PreviousButton == 2)
             {
-                //p1Score++;                //Replace with milk added to Bucket
+
                 milkSpawner.SpawnBurst(
                     team1TeamInfo.udderRight,
-                    team1TeamInfo.teamTag
+                    team1TeamInfo.teamTag,
+                    milkSpawnAmount
                     );
+
+                ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
                 p1Clicked = true;
                 player1PreviousButton = 1;
@@ -102,14 +111,16 @@ public class MilkSystem : MonoBehaviour
 
             if (Input.GetButtonDown("Milk1_Left")&& player1PreviousButton == 1 && p1Clicked == false)
             {
-                //p1Score++;                //Replace with milk added to Bucket
+
                 milkSpawner.SpawnBurst(
                     team1TeamInfo.udderLeft,
-                    team1TeamInfo.teamTag
+                    team1TeamInfo.teamTag,
+                    milkSpawnAmount
                 );
 
+                ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
-                //milkSpawner.SpawnBurst();
+                
                 p1Clicked = true;
                 player1PreviousButton = 2;
             }
@@ -138,11 +149,14 @@ public class MilkSystem : MonoBehaviour
             p2Clicked = false;
             if (Input.GetButtonDown("Milk2_Right") && player2PreviousButton == 2)
             {
-                //p2Score++;                //Replace with milk added to Bucket
+
                 milkSpawner.SpawnBurst(
                     team2TeamInfo.udderRight,
-                    team2TeamInfo.teamTag
+                    team2TeamInfo.teamTag,
+                    milkSpawnAmount
                 );
+
+                ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
                 p2Clicked = true;
                 player2PreviousButton = 1;
@@ -150,11 +164,15 @@ public class MilkSystem : MonoBehaviour
 
             if (Input.GetButtonDown("Milk2_Left")&& player2PreviousButton == 1 && p2Clicked == false)
             {
-                //p2Score++;                //Replace with milk added to Bucket
+
                 milkSpawner.SpawnBurst(
                     team2TeamInfo.udderLeft,
-                    team2TeamInfo.teamTag
+                    team2TeamInfo.teamTag,
+                    milkSpawnAmount
                 );
+
+
+                ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
                 p2Clicked = true;
                 player2PreviousButton = 2;
@@ -165,13 +183,14 @@ public class MilkSystem : MonoBehaviour
     }
 
     [Serializable]
-    private struct TeamInfo
+    public struct TeamInfo
     {
         //public MilkSpawner milkSpawner;
         public Transform udderLeft;
         public Transform udderRight;
         public string teamTag;
-        [HideInInspector] public int milkCount;
-        [HideInInspector] public float score;
+        //[HideInInspector] public int milkCount;
+        //[HideInInspector] public float score;
+        //public ScoreData scoreData;
     }
 }

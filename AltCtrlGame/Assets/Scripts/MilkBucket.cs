@@ -1,15 +1,26 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MilkBucket : MonoBehaviour
 {
     private int bucketCapacity = 24;
     private int count;
+    private MilkSystem milkSystem;
+
+    private void Awake()
+    {
+        milkSystem = GameObject.FindGameObjectWithTag("MilkManager").GetComponent<MilkSystem>();
+    }
+
 
     public void AddMilk(int amount)
     {
         count += amount;
         //Debug.Log(count);
-        //Debug.Log(CheckIfFull());
+        //if (CheckIfFull())
+        //{
+        //    SceneManager.LoadScene(1);
+        //}
     }
 
     public bool CheckIfFull()

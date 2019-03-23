@@ -43,8 +43,11 @@ public class MilkCollision : MonoBehaviour
             }
 
             transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(1);
-            //Debug.Log("Milk detected add score " + col.tag);
-            milkSystem.AddOrRemoveMilk(gameObject.tag, true);
+            
+            //milkSystem.AddOrRemoveMilk(gameObject.tag, true);
+            ScoreManager.UpdateScoreData(col.tag, ScoreType.milkCaughtInBucket, 1);
+
+            Debug.Log("Produced " + ScoreManager.scoreDataArray[1].milkProduced + " Split " + ScoreManager.scoreDataArray[1].milkSplit + " Caught in bucket " + ScoreManager.scoreDataArray[1].milkCaughtInBucket);
 
 
             //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Continuous;
@@ -70,8 +73,10 @@ public class MilkCollision : MonoBehaviour
                 return;
             }
 
-            //Debug.Log("Milk leaving remove score");
-            milkSystem.AddOrRemoveMilk(gameObject.tag, false);
+            
+            //milkSystem.AddOrRemoveMilk(gameObject.tag, false);
+
+
             transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(-1);
 
 
