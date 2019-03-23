@@ -54,7 +54,16 @@ public class Bucket_Balance : MonoBehaviour
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 
         //set the force visualizer
-        SetTiltOmeter((((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) * noiseScale * randomForce) + (Input.GetAxis("Horizontal") * force));
+        float playerDisplayForce = 0;
+        if (InputAxis != "")
+        {
+            playerDisplayForce =  Input.GetAxis(InputAxis) * force;
+        }
+        else {
+            playerDisplayForce = Input.GetAxis("Horizontal") * force;
+        }
+
+        SetTiltOmeter((((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) * noiseScale * randomForce) + playerDisplayForce);
     }
 
     Vector3 AddForce() {
@@ -67,7 +76,7 @@ public class Bucket_Balance : MonoBehaviour
             hAxis = Input.GetAxis("Horizontal");
         }
 
-        Vector3 forceVector = transform.TransformPoint(new Vector3(hAxis * force, 0, 0));
+        Vector3 forceVector = new Vector3(hAxis * force, 0, 0) + transform.right;
 
         return forceVector;
     }
@@ -75,7 +84,7 @@ public class Bucket_Balance : MonoBehaviour
     Vector3 AddRandomForce(float NoiseVal)
     {
         NoiseVal *= noiseScale;
-        Vector3 forceVector = transform.TransformPoint(new Vector3(NoiseVal * randomForce, 0, 0));
+        Vector3 forceVector = new Vector3(NoiseVal * randomForce, 0, 0) + transform.right;
         return forceVector;
     }
 
