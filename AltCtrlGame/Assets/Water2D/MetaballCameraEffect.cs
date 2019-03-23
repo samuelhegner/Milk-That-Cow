@@ -43,12 +43,12 @@ namespace UnityStandardAssets.ImageEffects
 
         RenderTexture bgTargetTexture;
 
-        private void OnEnable()
+        private void Awake()
         {
-			//if (Screen.width > 0 && Screen.height > 0) {
-			//	bgTargetTexture = new RenderTexture (Screen.width, Screen.height, 25);
-			//	bgCamera.targetTexture = bgTargetTexture;
-			//}
+			if (Screen.width > 0 && Screen.height > 0) {
+				bgTargetTexture = new RenderTexture (Screen.width, Screen.height, 25);
+				bgCamera.targetTexture = bgTargetTexture;
+			}
         }
 
         protected void OnDisable()
