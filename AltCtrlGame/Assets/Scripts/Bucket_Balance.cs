@@ -32,8 +32,8 @@ public class Bucket_Balance : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        randomNoiseStartX = Random.Range(-100000, 100000);
-        randomNoiseStartY = Random.Range(-100000, 100000);
+        randomNoiseStartX = Random.Range(-10000, 10000);
+        randomNoiseStartY = Random.Range(-10000, 10000);
     }
 
     void FixedUpdate()
@@ -45,7 +45,7 @@ public class Bucket_Balance : MonoBehaviour
         noiseScroller += noiseInc;
 
         //calculates the force to add this frame.
-        Vector3 totalForce = AddRandomForce((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY - noiseScroller) * 2f) - 1f) + AddForce();
+        Vector3 totalForce = AddRandomForce(((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f)) + AddForce();
 
         //adds the force to the rb
         rb.AddForce(totalForce, ForceMode.Force);
@@ -54,7 +54,7 @@ public class Bucket_Balance : MonoBehaviour
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 
         //set the force visualizer
-        SetTiltOmeter((Input.GetAxis("Horizontal")* force) + ((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f)* noiseScale * randomForce);
+        SetTiltOmeter((((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) * noiseScale * randomForce) + (Input.GetAxis("Horizontal") * force));
     }
 
     Vector3 AddForce() {
@@ -82,6 +82,6 @@ public class Bucket_Balance : MonoBehaviour
     void SetTiltOmeter(float forceInput) {
         //maps the forces input onto a -89 to 89 degree rotation and sets the arrows rotation to it
         float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
-        arrow.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(new Vector3(0, 0, zRot)), Time.fixedDeltaTime * 15f);
+        arrow.rotation = Quaternion.Euler(new Vector3(0, 0, zRot));
     }
 }

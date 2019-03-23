@@ -9,8 +9,10 @@ public class Bucket_Chug : MonoBehaviour
     public float chugDuration;
 
     HingeJoint joint;
+    Rigidbody rb;
     Bucket_Balance bal;
     Animator anim;
+    MilkBucket bucket;
 
     public Vector3 startPos;
 
@@ -23,6 +25,7 @@ public class Bucket_Chug : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+        rb = GetComponent<Rigidbody>();
         bal = GetComponent<Bucket_Balance>();
         joint = GetComponent<HingeJoint>();
         anim = GetComponent<Animator>();
@@ -31,11 +34,13 @@ public class Bucket_Chug : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
+        //bucket = transform.GetChild(0).GetComponent<MilkBucket>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //fullBucket = bucket.CheckIfFull();
         if (fullBucket) {
             if (Input.GetAxis("Vertical") < -0.8f && !chugging) {
                 StartCoroutine(ChugBucket());
@@ -51,6 +56,7 @@ public class Bucket_Chug : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+        rb.isKinematic = true;
         anim.Play("Chug");
 
         anim.enabled = true;
@@ -62,6 +68,8 @@ public class Bucket_Chug : MonoBehaviour
         anim.enabled = false;
         bal.enabled = true;
         joint.useSpring = false;
+        rb.isKinematic = false;
+
         chugging = false;
         fullBucket = false;
     }
