@@ -8,6 +8,10 @@ public class Crowd_Changer : MonoBehaviour
 
     public Audience_Member[] audience2;
 
+    public GameObject audienceCamera1;
+    public GameObject audienceCamera2;
+
+    public GameObject mainCamera;
 
 
 
@@ -63,4 +67,33 @@ public class Crowd_Changer : MonoBehaviour
         }
         
     }
+
+     void Update()
+     {
+         var firstAudienceMember1 = audience1[0];
+         var firstAudienceMember2 = audience2[0];
+
+
+         if (mainCamera.activeSelf)
+         {
+             if (firstAudienceMember1.currentState != Audience_Member.ViewerState.idle)
+             {
+                 audienceCamera1.SetActive(true);
+             }
+             else
+             {
+                 audienceCamera1.SetActive(false);
+             }
+
+
+             if (firstAudienceMember2.currentState != Audience_Member.ViewerState.idle)
+             {
+                 audienceCamera2.SetActive(true);
+             }
+             else
+             {
+                 audienceCamera2.SetActive(false);
+             }
+         }
+     }
 }
