@@ -60,17 +60,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 6.883333
-        value: 1
-        inSlope: 0.40677968
-        outSlope: 0.40677968
+        time: 7.15
+        value: 1.1082687
+        inSlope: 0.20721817
+        outSlope: 0.20721817
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 9.9
-        value: 2
+        time: 14.983334
+        value: 2.0721817
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -105,7 +105,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 9.9
+    m_StopTime: 14.983334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -143,17 +143,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 6.883333
-        value: 1
-        inSlope: 0.40677968
-        outSlope: 0.40677968
+        time: 7.15
+        value: 1.1082687
+        inSlope: 0.20721817
+        outSlope: 0.20721817
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 9.9
-        value: 2
+        time: 14.983334
+        value: 2.0721817
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -277,25 +277,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -313,7 +295,7 @@ MonoBehaviour:
   - m_Start: 5
     m_ClipIn: 0
     m_Asset: {fileID: 114758036812606938}
-    m_Duration: 5
+    m_Duration: 10.033333333333346
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114715446264564654}
     m_EaseInDuration: 0
@@ -322,25 +304,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -359,9 +323,9 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam1
+    m_DisplayName: Camera Audience Dolly
     m_Version: 1
-  - m_Start: 10
+  - m_Start: 15.033333333333346
     m_ClipIn: 0
     m_Asset: {fileID: 114795968881616120}
     m_Duration: 5
@@ -370,7 +334,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -379,25 +343,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -412,7 +358,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Camera Contestant 1
     m_Version: 1
-  - m_Start: 15
+  - m_Start: 20.033333333333335
     m_ClipIn: 0
     m_Asset: {fileID: 114948080215805716}
     m_Duration: 9.45
@@ -420,29 +366,11 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 114715446264564654}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: 4.449999999999999
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 4.449999999999992
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -481,7 +409,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Camera Contestant 2
     m_Version: 1
-  - m_Start: 20
+  - m_Start: 25.033333333333342
     m_ClipIn: 0
     m_Asset: {fileID: 114246730243857062}
     m_Duration: 6.333333333333332
@@ -489,7 +417,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: 114715446264564654}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 4.449999999999999
+    m_BlendInDuration: 4.449999999999992
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -548,7 +476,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam2
+    m_DisplayName: Camera Wide Shot
     m_Version: 1
   m_Version: 2
 --- !u!114 &114758036812606938
