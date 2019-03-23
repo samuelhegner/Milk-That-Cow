@@ -8,6 +8,8 @@ TagManager:
   - Team1
   - Team2
   - MilkManager
+  - Audience1
+  - Audience2
   layers:
   - Default
   - TransparentFX

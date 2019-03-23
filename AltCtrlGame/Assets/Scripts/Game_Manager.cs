@@ -1,19 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Game_Manager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float totalTime;
+
+    public string sceneToLoad;
+
+    public TextMeshProUGUI timerText;
+
+    float timer;
+
+
     void Start()
     {
-        
+        timer = totalTime;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        timer -= Time.deltaTime;
+
+        timerText.text = Mathf.FloorToInt(timer).ToString();
+
+        if (timer <= 0) {
+            SceneManager.LoadScene(sceneToLoad);
+        }
     }
 
     public static float Map(float a, float b, float c, float d, float e)
