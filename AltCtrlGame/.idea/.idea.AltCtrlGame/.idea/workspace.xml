@@ -44,7 +44,18 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="350" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="350" />
         </counts>
       </usages-collector>
     </session>
@@ -54,69 +65,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MilkSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
+            <state relative-caret-position="2445">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
               <folding>
-                <marker date="1553263658794" expanded="false" signature="6:93" ph="..." />
-                <marker date="1553263658794" expanded="true" signature="134:4539" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="754:1020" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="860:1013" ph="/* player1timerRight = delayTimer; ... */" />
-                <marker date="1553263658794" expanded="true" signature="1078:1099" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1165:1490" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1217:1344" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1357:1484" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1543:1686" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1728:2993" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1755:2987" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1835:1902" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="1919:1977" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="2158:2495" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="2598:2975" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3033:4237" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3060:4231" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3140:3207" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3224:3282" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3451:3784" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="3887:4219" ph="{...}" />
-                <marker date="1553263658794" expanded="true" signature="4285:4537" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Crowd_Changer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1553263658568" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553263658568" expanded="true" signature="122:625" ph="{...}" />
-                <marker date="1553263658568" expanded="true" signature="283:388" ph="{...}" />
-                <marker date="1553263658568" expanded="true" signature="473:623" ph="{...}" />
-                <marker date="1553263658568" expanded="true" signature="537:617" ph="{...}" />
+                <marker date="1553368117781" expanded="false" signature="6:93" ph="..." />
+                <marker date="1553368117781" expanded="true" signature="135:5204" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="788:1177" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="1017:1170" ph="/* player1timerRight = delayTimer; ... */" />
+                <marker date="1553368117781" expanded="true" signature="1235:1256" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="1262:2061" ph="/* public void AddOrRemoveMilk(string teamTag, bool addingMilk) ... */" />
+                <marker date="1553368117781" expanded="true" signature="2103:3478" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="2130:3472" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="2210:2277" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="2294:2352" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="2533:2939" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3042:3460" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3518:4861" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3545:4855" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3625:3692" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3709:3767" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="3936:4338" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="4441:4843" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="4908:5202" ph="{...}" />
+                <marker date="1553368117781" expanded="true" signature="5069:5196" ph="/* [HideInInspector] public int milkCount; ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Audience_Member.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnableMainCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
-                <marker date="1553265312789" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553265312789" expanded="true" signature="124:1552" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="160:234" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="386:501" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="559:1073" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="596:959" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="969:1067" ph="/* if (currentState != ViewerState.idle) ... */" />
-                <marker date="1553265312789" expanded="true" signature="1091:1186" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="1208:1304" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="1326:1334" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="1356:1364" ph="{...}" />
-                <marker date="1553265312789" expanded="true" signature="1440:1549" ph="{...}" />
+                <marker date="1553375823181" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553375823181" expanded="true" signature="125:779" ph="{...}" />
+                <marker date="1553375823181" expanded="true" signature="349:406" ph="{...}" />
+                <marker date="1553375823181" expanded="true" signature="464:485" ph="{...}" />
+                <marker date="1553375823181" expanded="true" signature="530:777" ph="{...}" />
+                <marker date="1553375823181" expanded="true" signature="571:770" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,15 +116,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Audience_Member.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MilkSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Crowd_Changer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnableMainCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MilkSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Audience_Member.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnableMainCamera.cs" />
       </list>
     </option>
   </component>
@@ -152,11 +140,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -208,11 +196,12 @@
       <workItem from="1552502440443" duration="2681000" />
       <workItem from="1553182722471" duration="334000" />
       <workItem from="1553264916063" duration="401000" />
+      <workItem from="1553374899169" duration="927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4368000" />
+    <option name="totallyTimeSpent" value="5295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,10 +213,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26432666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,67 +259,56 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Temp_Text.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MilkSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
-          <folding>
-            <marker date="1553263658794" expanded="false" signature="6:93" ph="..." />
-            <marker date="1553263658794" expanded="true" signature="134:4539" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="754:1020" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="860:1013" ph="/* player1timerRight = delayTimer; ... */" />
-            <marker date="1553263658794" expanded="true" signature="1078:1099" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1165:1490" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1217:1344" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1357:1484" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1543:1686" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1728:2993" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1755:2987" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1835:1902" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="1919:1977" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="2158:2495" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="2598:2975" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3033:4237" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3060:4231" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3140:3207" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3224:3282" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3451:3784" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="3887:4219" ph="{...}" />
-            <marker date="1553263658794" expanded="true" signature="4285:4537" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Crowd_Changer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1553263658568" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553263658568" expanded="true" signature="122:625" ph="{...}" />
-            <marker date="1553263658568" expanded="true" signature="283:388" ph="{...}" />
-            <marker date="1553263658568" expanded="true" signature="473:623" ph="{...}" />
-            <marker date="1553263658568" expanded="true" signature="537:617" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Audience_Member.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MilkSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
           <folding>
-            <marker date="1553265312789" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553265312789" expanded="true" signature="124:1552" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="160:234" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="386:501" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="559:1073" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="596:959" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="969:1067" ph="/* if (currentState != ViewerState.idle) ... */" />
-            <marker date="1553265312789" expanded="true" signature="1091:1186" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="1208:1304" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="1326:1334" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="1356:1364" ph="{...}" />
-            <marker date="1553265312789" expanded="true" signature="1440:1549" ph="{...}" />
+            <marker date="1553368117781" expanded="false" signature="6:93" ph="..." />
+            <marker date="1553368117781" expanded="true" signature="135:5204" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="788:1177" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="1017:1170" ph="/* player1timerRight = delayTimer; ... */" />
+            <marker date="1553368117781" expanded="true" signature="1235:1256" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="1262:2061" ph="/* public void AddOrRemoveMilk(string teamTag, bool addingMilk) ... */" />
+            <marker date="1553368117781" expanded="true" signature="2103:3478" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="2130:3472" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="2210:2277" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="2294:2352" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="2533:2939" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3042:3460" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3518:4861" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3545:4855" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3625:3692" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3709:3767" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="3936:4338" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="4441:4843" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="4908:5202" ph="{...}" />
+            <marker date="1553368117781" expanded="true" signature="5069:5196" ph="/* [HideInInspector] public int milkCount; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnableMainCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <marker date="1553375823181" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553375823181" expanded="true" signature="125:779" ph="{...}" />
+            <marker date="1553375823181" expanded="true" signature="349:406" ph="{...}" />
+            <marker date="1553375823181" expanded="true" signature="464:485" ph="{...}" />
+            <marker date="1553375823181" expanded="true" signature="530:777" ph="{...}" />
+            <marker date="1553375823181" expanded="true" signature="571:770" ph="{...}" />
           </folding>
         </state>
       </provider>
