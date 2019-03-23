@@ -22,8 +22,7 @@ public class Crowd_Changer : MonoBehaviour
         GameObject[] _audience1 = GameObject.FindGameObjectsWithTag("Audience1");
         GameObject[] _audience2 = GameObject.FindGameObjectsWithTag("Audience2");
 
-        print(_audience1.Length);
-        print(_audience2.Length);
+        
 
         List<Audience_Member> temp1 = new List<Audience_Member>();
         List<Audience_Member> temp2 = new List<Audience_Member>();
@@ -37,9 +36,7 @@ public class Crowd_Changer : MonoBehaviour
             temp2.Add(go.GetComponent<Audience_Member>());
         }
 
-        print(temp1.Count);
-        print(temp2.Count);
-
+        
         audience1 = temp1.ToArray();
         audience2 = temp2.ToArray();
     }
