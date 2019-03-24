@@ -38,7 +38,7 @@ public class MilkCollision : MonoBehaviour
             {
                 col.GetComponent<MetaballParticleClass>().SetTrailRenderer = false;
                 col.gameObject.transform.SetParent(transform);
-                Debug.Log("ParentChanged");
+                //Debug.Log("ParentChanged");
                 return;
             }
 
@@ -47,7 +47,7 @@ public class MilkCollision : MonoBehaviour
             //milkSystem.AddOrRemoveMilk(gameObject.tag, true);
             ScoreManager.UpdateScoreData(col.tag, ScoreType.milkCaughtInBucket, 1);
 
-            Debug.Log("Produced " + ScoreManager.scoreDataArray[1].milkProduced + " Split " + ScoreManager.scoreDataArray[1].milkSplit + " Caught in bucket " + ScoreManager.scoreDataArray[1].milkCaughtInBucket);
+            //Debug.Log("Produced " + ScoreManager.scoreDataArray[1].milkProduced + " Split " + ScoreManager.scoreDataArray[1].milkSplit + " Caught in bucket " + ScoreManager.scoreDataArray[1].milkCaughtInBucket);
 
 
             //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Continuous;

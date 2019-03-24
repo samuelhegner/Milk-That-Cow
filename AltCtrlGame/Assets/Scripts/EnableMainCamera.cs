@@ -29,8 +29,10 @@ public class EnableMainCamera : MonoBehaviour
             yield return new WaitForSeconds(IntroTime);
 
             MainCameras.SetActive(true);
-            introCamera.SetActive(true);
+            introCamera.SetActive(false);
             cameraNotActivated = false;
+
+            Game_Manager.StartGame();
         }
 
     }
