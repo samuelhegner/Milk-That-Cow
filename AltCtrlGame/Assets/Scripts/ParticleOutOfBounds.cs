@@ -15,19 +15,8 @@ public class ParticleOutOfBounds : MonoBehaviour
     { 
         if (col.GetComponent<MetaballParticleClass>())
         {
-            col.GetComponent<MetaballParticleClass>().LifeTime = 0;
-            col.GetComponent<MetaballParticleClass>().witinTarget = false;
-            col.GetComponent<MetaballParticleClass>().IsInfinite = false;
+            col.GetComponent<MetaballParticleClass>().Destroy();
 
-            //if (col.CompareTag(milkSystem.team1TeamInfo.teamTag))
-            //{
-            //    milkSystem.team1TeamInfo.scoreData.milkSplit++;
-            //}
-
-            //if (col.CompareTag(milkSystem.team2TeamInfo.teamTag))
-            //{
-            //    milkSystem.team2TeamInfo.scoreData.milkSplit++;
-            //}
 
             ScoreManager.UpdateScoreData(col.tag, ScoreType.milkSplit, 1);
         }

@@ -42,7 +42,7 @@ public class MilkCollision : MonoBehaviour
                 return;
             }
 
-            transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(1);
+            transform.parent.gameObject.GetComponent<MilkBucket>().UpdateBucket(true, col.gameObject);
             
             //milkSystem.AddOrRemoveMilk(gameObject.tag, true);
             ScoreManager.UpdateScoreData(col.tag, ScoreType.milkCaughtInBucket, 1);
@@ -77,7 +77,7 @@ public class MilkCollision : MonoBehaviour
             //milkSystem.AddOrRemoveMilk(gameObject.tag, false);
 
 
-            transform.parent.gameObject.GetComponent<MilkBucket>().AddMilk(-1);
+            transform.parent.gameObject.GetComponent<MilkBucket>().UpdateBucket(false, col.gameObject);
 
 
             //col.GetComponent<Rigidbody2D>().collisionDetectionMode = CollisionDetectionMode2D.Discrete;

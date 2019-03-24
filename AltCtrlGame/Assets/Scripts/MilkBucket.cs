@@ -1,26 +1,25 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class MilkBucket : MonoBehaviour
 {
-    private int bucketCapacity = 24;
+    private readonly int bucketCapacity = 24;
     private int count;
-    private MilkSystem milkSystem;
+    private List<GameObject> milkList = new List<GameObject>();
 
-    private void Awake()
+    public void UpdateBucket(bool state, GameObject obj)
     {
-        milkSystem = GameObject.FindGameObjectWithTag("MilkManager").GetComponent<MilkSystem>();
-    }
-
-
-    public void AddMilk(int amount)
-    {
-        count += amount;
-        //Debug.Log(count);
-        //if (CheckIfFull())
-        //{
-        //    SceneManager.LoadScene(1);
-        //}
+        if (state)
+        {
+            count++;
+            milkList.Add(obj);
+        }
+        else
+        {
+            count--;
+            if (milkList.Contains(obj))
+                milkList.Remove(obj);
+        }
     }
 
     public bool CheckIfFull()
@@ -28,15 +27,18 @@ public class MilkBucket : MonoBehaviour
         return count >= bucketCapacity;
     }
 
-    public void EnableOrDisableColliders(bool value)
+    public void BucketChug(bool value)
     {
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < milkList.Count; i++)
+        {
+            milkList[i].GetComponent<MetaballParticleClass>().Destroy();
+            milkList.Remove(milkList[i]);
+        }
+
+        for (var i = 0; i < transform.childCount; i++)
         {
             var child = transform.GetChild(i);
-            if (child.GetComponent<Collider2D>())
-            {
-                child.GetComponent<Collider2D>().enabled = value;
-            }
+            if (child.GetComponent<Collider2D>()) child.GetComponent<Collider2D>().enabled = value;
         }
     }
 }

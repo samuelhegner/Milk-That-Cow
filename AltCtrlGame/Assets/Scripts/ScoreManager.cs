@@ -51,6 +51,11 @@ public class ScoreManager : MonoBehaviour
         return new ScoreData("");
     }
 
+    public static ScoreData[] GetScoreData()
+    {
+        return scoreDataArray;
+    }
+
 
     public static void UpdateScoreData(string teamTag, ScoreType scoreToUpdate, float amount = 1)
     {

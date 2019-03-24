@@ -60,7 +60,7 @@ public class Bucket_Chug : MonoBehaviour
 
     IEnumerator ChugBucket() {
         chugging = true;
-        bucket.EnableOrDisableColliders(false);
+        bucket.BucketChug(false);
         bal.enabled = false;
         while (Vector3.Distance(transform.position, startPos) > 0.1f) {
             joint.useSpring = true;
@@ -83,6 +83,6 @@ public class Bucket_Chug : MonoBehaviour
 
         chugging = false;
         fullBucket = false;
-        bucket.EnableOrDisableColliders(true);
+        bucket.BucketChug(true);
     }
 }
