@@ -1,15 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
-using System;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DisplayScore : MonoBehaviour
 {
     [SerializeField] private UIFields data;
 
-    void Start()
+    private void Start()
     {
         SetText(data);
         StartCoroutine(reLoad());
@@ -23,13 +22,13 @@ public class DisplayScore : MonoBehaviour
 
     private void SetText(UIFields data)
     {
-        ScoreData scoreData = ScoreManager.GetScoreData(data.teamTag);
+        var scoreData = ScoreManager.GetScoreData(data.teamTag);
         data.teamNameText.text = data.teamName;
-        data.bucketsDrankText.text = "Buckets drank " + scoreData.bucketsDrank.ToString();
-        data.milkSpiltText.text = "Milk split " + scoreData.milkSplit.ToString();
-        data.milkProducedText.text = "Milk produced " + scoreData.milkProduced.ToString();
-        data.milkCaughtInBucketText.text = "Milk caught " + scoreData.milkCaughtInBucket.ToString();
-        data.totalScoreText.text = "Total score " + scoreData.totalScore.ToString();
+        data.bucketsDrankText.text = "Buckets drank " + scoreData.bucketsDrank;
+        data.milkSpiltText.text = "Milk split " + scoreData.milkSplit;
+        data.milkProducedText.text = "Milk produced " + scoreData.milkProduced;
+        data.milkCaughtInBucketText.text = "Milk caught " + scoreData.milkCaughtInBucket;
+        data.totalScoreText.text = "Total score " + scoreData.totalScore;
     }
 
     [Serializable]
@@ -43,5 +42,5 @@ public class DisplayScore : MonoBehaviour
         public Text milkProducedText;
         public Text milkCaughtInBucketText;
         public Text totalScoreText;
-    } 
+    }
 }

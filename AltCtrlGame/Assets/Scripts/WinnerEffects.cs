@@ -1,40 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
-using System;
 
 public class WinnerEffects : MonoBehaviour
 {
     private AudioSource audioSource;
     [SerializeField] private EffectData[] effectData;
 
-    void Start()
+    private void Start()
     {
         audioSource = GetComponent<AudioSource>();
         PlayWinnerEffects();
     }
 
-    void PlayWinnerEffects()
+    private void PlayWinnerEffects()
     {
-        ScoreData[] scoreData = ScoreManager.GetScoreData();
-        ScoreData winningTeam = scoreData[0];
+        var scoreData = ScoreManager.GetScoreData();
+        var winningTeam = scoreData[0];
 
-        for (int i = 0; i < scoreData.Length; i++)
-        {
+        for (var i = 0; i < scoreData.Length; i++)
             if (scoreData[i].milkProduced >= winningTeam.milkProduced)
-            {
                 winningTeam = scoreData[i];
-            }
-        }
 
-        for (int i = 0; i < effectData.Length; i++)
-        {
+        for (var i = 0; i < effectData.Length; i++)
             if (winningTeam.teamTag == effectData[i].teamTag)
-            {
                 audioSource.PlayOneShot(effectData[i].clip);
-            }
-        }
-
     }
 
     [Serializable]
