@@ -61,4 +61,36 @@ public class MilkSpawner : MonoBehaviour
             yield return new WaitForSeconds(delayBetweenParticles);
         }
     }
+
+    public static void DestroyAll(string teamTag)
+    {
+        //foreach (var m in particleList)
+        //{
+        //    if (m == null)
+        //    {
+        //        continue;
+        //    }
+
+        //    if (m.CompareTag(teamTag))
+        //    {
+        //        m.GetComponent<MetaballParticleClass>().Destroy();
+        //    }
+        //}
+
+        for (int i = 0; i < particleList.Count; i++)
+        {
+            if (particleList[i] == null)
+            {
+                continue;
+            }
+
+            if (particleList[i].CompareTag(teamTag))
+            {
+                particleList[i].GetComponent<MetaballParticleClass>().Destroy();
+                particleList[i].GetComponent<TrailRenderer>().enabled = false;
+                particleList[i].GetComponent<TrailRenderer>().Clear();
+                particleList[i].SetActive(false);
+            }
+        }
+    }
 }

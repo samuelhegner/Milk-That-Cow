@@ -29,13 +29,14 @@ public class MilkBucket : MonoBehaviour
 
     public void BucketChug(bool value)
     {
-        for (var i = 0; i < milkList.Count; i++)
-        {
-            GameObject obj = milkList[i];
-            milkList.Remove(obj);
+        //for (var i = 0; i < milkList.Count; i++)
+        //{
+        //    GameObject obj = milkList[i];
+        //    milkList.Remove(obj);
 
-            obj.GetComponent<MetaballParticleClass>().Destroy();
-        }
+        //    if (obj)
+        //    obj.GetComponent<MetaballParticleClass>().Destroy();
+        //}
 
         for (var i = 0; i < transform.childCount; i++)
         {

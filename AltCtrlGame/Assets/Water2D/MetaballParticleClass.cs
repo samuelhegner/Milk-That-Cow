@@ -77,9 +77,13 @@ public class MetaballParticleClass : MonoBehaviour
 
     public void Destroy()
     {
-        LifeTime = 0;
-        witinTarget = false;
-        IsInfinite = false;
+        MilkSpawner.particleList.Remove(this.gameObject);
+        SetTrailRenderer = false;
+        Active = false;
+        Destroy(this.gameObject);
+        //LifeTime = 0;
+        //witinTarget = false;
+        //IsInfinite = false;
     }
 
     private void VelocityLimiter()

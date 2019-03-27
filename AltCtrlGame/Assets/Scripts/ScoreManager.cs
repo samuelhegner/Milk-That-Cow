@@ -27,7 +27,7 @@ public class ScoreManager : MonoBehaviour
     }
 
 
-    public static void UpdateScoreData(string teamTag, ScoreType scoreToUpdate, float amount = 1)
+    public static void UpdateScoreData(string teamTag, ScoreType scoreToUpdate, float amount = 1.0f)
     {
         for (var i = 0; i < scoreDataArray.Length; i++)
         {

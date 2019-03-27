@@ -20,6 +20,8 @@ public class Bucket_Chug : MonoBehaviour
 
     bool chugging;
 
+    private string teamTag;
+    private MilkSystem milkSystem;
     
 
     // Start is called before the first frame update
@@ -29,6 +31,9 @@ public class Bucket_Chug : MonoBehaviour
         bal = GetComponent<Bucket_Balance>();
         joint = GetComponent<HingeJoint>();
         anim = GetComponent<Animator>();
+
+        teamTag = gameObject.tag;
+        milkSystem = GameObject.FindGameObjectWithTag("MilkManager").GetComponent<MilkSystem>();
     }
 
     void Start()
@@ -47,6 +52,10 @@ public class Bucket_Chug : MonoBehaviour
                 {
                     StartCoroutine(ChugBucket());
                 }
+                if (Input.GetKeyDown(KeyCode.Space) && !chugging)
+                {
+                    StartCoroutine(ChugBucket());
+                }
             }
             else {
                 if (Input.GetAxis("Vertical") < -0.8f && !chugging)
@@ -59,6 +68,43 @@ public class Bucket_Chug : MonoBehaviour
     }
 
     IEnumerator ChugBucket() {
+
+        if (milkSystem.team1TeamInfo.teamTag == teamTag)
+        {
+            for (int i = 0; i < MilkSpawner.particleList.Count -1; i++)
+            {
+                if (MilkSpawner.particleList[i] == null)
+                {
+                    continue;
+                }
+
+                if (MilkSpawner.particleList[i].CompareTag(teamTag))
+                {
+                    MilkSpawner.particleList[i].GetComponent<SpriteRenderer>().enabled = false;
+                    MilkSpawner.particleList[i].GetComponent<TrailRenderer>().enabled = false;
+                    MilkSpawner.particleList[i].GetComponent<TrailRenderer>().Clear();
+                }
+            }
+        }
+        if (milkSystem.team2TeamInfo.teamTag == teamTag)
+        {
+            for (int i = 0; i < MilkSpawner.particleList.Count - 1; i++)
+            {
+                if (MilkSpawner.particleList[i] == null)
+                {
+                    continue;
+                }
+
+                if (MilkSpawner.particleList[i].CompareTag(teamTag))
+                {
+                    MilkSpawner.particleList[i].GetComponent<SpriteRenderer>().enabled = false;
+                    MilkSpawner.particleList[i].GetComponent<TrailRenderer>().enabled = false;
+                    MilkSpawner.particleList[i].GetComponent<TrailRenderer>().Clear();
+                }
+            }
+        }
+
+        ScoreManager.UpdateScoreData(teamTag, ScoreType.bucketsDrank);
         chugging = true;
         bucket.BucketChug(false);
         bal.enabled = false;
