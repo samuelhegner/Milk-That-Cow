@@ -217,5 +217,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InputAxis: 
   chugDuration: 2
+  bucket: {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
   fullBucket: 0

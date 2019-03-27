@@ -28,6 +28,8 @@ public class MilkCollision : MonoBehaviour
                 col.gameObject.transform.SetParent(transform);
                 return;
             }
+            col.GetComponent<MetaballParticleClass>().SetTrailRenderer = false;
+            col.gameObject.transform.SetParent(transform);
 
             transform.parent.gameObject.GetComponent<MilkBucket>().UpdateBucket(true, col.gameObject);
 
