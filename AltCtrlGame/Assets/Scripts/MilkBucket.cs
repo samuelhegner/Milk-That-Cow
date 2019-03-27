@@ -31,8 +31,10 @@ public class MilkBucket : MonoBehaviour
     {
         for (var i = 0; i < milkList.Count; i++)
         {
-            milkList[i].GetComponent<MetaballParticleClass>().Destroy();
-            milkList.Remove(milkList[i]);
+            GameObject obj = milkList[i];
+            milkList.Remove(obj);
+
+            obj.GetComponent<MetaballParticleClass>().Destroy();
         }
 
         for (var i = 0; i < transform.childCount; i++)

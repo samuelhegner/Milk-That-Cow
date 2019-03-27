@@ -43,7 +43,7 @@ public class MilkSystem : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
             p1Clicked = false;
-            if (Input.GetButtonDown("Milk1Right") && player1PreviousButton == 2 && Game_Manager.GameIsActive)
+            if (Input.GetAxis("Milk1") > 0 && player1PreviousButton == 2 && Game_Manager.GameIsActive)
             {
                 milkSpawner.SpawnBurst(
                     team1TeamInfo.udderRight,
@@ -57,7 +57,7 @@ public class MilkSystem : MonoBehaviour
                 player1PreviousButton = 1;
             }
 
-            if (Input.GetButtonDown("Milk1_Left") && player1PreviousButton == 1 && p1Clicked == false &&
+            if (Input.GetAxis("Milk1") < 0  && player1PreviousButton == 1 && p1Clicked == false &&
                 Game_Manager.GameIsActive)
             {
                 milkSpawner.SpawnBurst(
