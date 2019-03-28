@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
         float ran = Random.Range(0f, mooTime * 30);
         if (ran >mooTime - 1)
         {
-            Play("Moo");
+           // Play("Moo");
         }
     }
 }
