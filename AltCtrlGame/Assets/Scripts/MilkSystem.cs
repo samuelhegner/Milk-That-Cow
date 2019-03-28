@@ -20,6 +20,8 @@ public class MilkSystem : MonoBehaviour
     [SerializeField] public TeamInfo team1TeamInfo;
     [SerializeField] public TeamInfo team2TeamInfo;
 
+    public AudioManager AM;
+
     private void Start()
     {
         ScoreManager.RegisterTeam(team1TeamInfo.teamTag, 0);
@@ -53,6 +55,8 @@ public class MilkSystem : MonoBehaviour
                 );
 
                 team1TeamInfo.Udder.GetComponent<Animator>().Play("right udder pull");
+              
+                ;
                 
 
                 ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
@@ -69,7 +73,7 @@ public class MilkSystem : MonoBehaviour
                     team1TeamInfo.teamTag,
                     milkSpawnAmount
                 );
-
+                
                 team1TeamInfo.Udder.GetComponent<Animator>().Play("left udder pull");
 
                 ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
@@ -102,7 +106,7 @@ public class MilkSystem : MonoBehaviour
                     team2TeamInfo.teamTag,
                     milkSpawnAmount
                 );
-
+                
                 team2TeamInfo.Udder.GetComponent<Animator>().Play("right udder pull");
 
                 ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
@@ -119,7 +123,7 @@ public class MilkSystem : MonoBehaviour
                     team2TeamInfo.teamTag,
                     milkSpawnAmount
                 );
-
+                
                 team2TeamInfo.Udder.GetComponent<Animator>().Play("left udder pull");
 
                 ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
