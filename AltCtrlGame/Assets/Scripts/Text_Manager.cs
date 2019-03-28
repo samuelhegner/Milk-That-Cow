@@ -33,11 +33,14 @@ public class Text_Manager : MonoBehaviour
             Debug.LogWarning("Another message is being displayed");
         }
         else {
-            instance.StartCoroutine(instance.PlayWords(cam, lerpSpeed, timeBetweenWords, words));
+            instance.StartCoroutine(instance.PlayWords(cam, lerpSpeed, timeBetweenWords, words, 3.5f));
         }
     }
 
-    public IEnumerator PlayWords(Camera cam, float lerpSpeed, float timeBetweenWords, string[] words) {
+    public IEnumerator PlayWords(Camera cam, float lerpSpeed, float timeBetweenWords, string[] words, float delay) {
+
+        yield return new WaitForSeconds(delay);
+
         int wordCount = 0;
         busy = true;
         instance.canvas.worldCamera = cam;
@@ -47,6 +50,7 @@ public class Text_Manager : MonoBehaviour
             GameObject word = Instantiate(textPrefab, Vector3.zero, Quaternion.identity) as GameObject;
             word.transform.SetParent(canvas.transform, false);
             word.GetComponent<TextMeshProUGUI>().text = words[wordCount];
+            word.GetComponent<Temp_Text>().lerpSpeed = lerpSpeed;
             wordCount++;
             inProg = true;
             yield return new WaitUntil(checkInProg);
