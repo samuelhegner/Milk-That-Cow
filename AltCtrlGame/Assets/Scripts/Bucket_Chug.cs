@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Bucket_Chug : MonoBehaviour
 {
     public string InputAxis;
@@ -17,6 +18,12 @@ public class Bucket_Chug : MonoBehaviour
     public Vector3 startPos;
 
     public bool fullBucket;
+
+    [Space]
+    [Header("Audio stuff")]
+    public AudioSource audioSource;
+    public AudioClip chugClip;
+
 
     bool chugging;
 
@@ -34,6 +41,17 @@ public class Bucket_Chug : MonoBehaviour
 
         teamTag = gameObject.tag;
         milkSystem = GameObject.FindGameObjectWithTag("MilkManager").GetComponent<MilkSystem>();
+
+        audioSource = GetComponent<AudioSource>();
+
+        if (!chugClip)
+        {
+            Debug.LogError("No Chug Audio");
+        }
+        else
+        {
+            chugDuration = chugClip.length;
+        }
     }
 
     void Start()
@@ -103,6 +121,8 @@ public class Bucket_Chug : MonoBehaviour
                 }
             }
         }
+        if (chugClip)
+            audioSource.PlayOneShot(chugClip);
 
         ScoreManager.UpdateScoreData(teamTag, ScoreType.bucketsDrank);
         chugging = true;

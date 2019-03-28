@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Crowd_Changer : MonoBehaviour
 {
     public Audience_Member[] audience1;
@@ -10,9 +10,12 @@ public class Crowd_Changer : MonoBehaviour
 
     public GameObject audienceCamera1;
     public GameObject audienceCamera2;
+    public GameObject audience1Image;
+    public GameObject audience2Image;
 
     public GameObject mainCamera;
 
+    
 
 
     public static Crowd_Changer instance;
@@ -84,21 +87,25 @@ public class Crowd_Changer : MonoBehaviour
              if (firstAudienceMember1.currentState != Audience_Member.ViewerState.idle)
              {
                  audienceCamera1.SetActive(true);
+                 audience1Image.SetActive(true);
              }
              else
              {
                  audienceCamera1.SetActive(false);
-             }
+                 audience1Image.SetActive(false);
+            }
 
 
              if (firstAudienceMember2.currentState != Audience_Member.ViewerState.idle)
              {
                  audienceCamera2.SetActive(true);
-             }
+                 audience2Image.SetActive(true);
+            }
              else
              {
                  audienceCamera2.SetActive(false);
-             }
+                 audience2Image.SetActive(false);
+            }
          }
 
         print(Input.GetAxis("Milk1"));
