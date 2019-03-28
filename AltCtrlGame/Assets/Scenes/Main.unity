@@ -22733,6 +22733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IntroTime: 32.5
+  OutroTime: 26.2
   MainCameras: {fileID: 951960880}
   introCamera: {fileID: 712610299031961571}
 --- !u!82 &1805768300
