@@ -1,33 +1,38 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnableMainCamera : MonoBehaviour
 {
-    public float IntroTime;
-
-    public float OutroTime;
-    public GameObject MainCameras;
-    public GameObject introCamera;
-    private bool cameraNotActivated = true;
+    public static bool IntroPlayed = false;
 
     public AudioManager AM;
-    
-    
-    // Start is called before the first frame update
-    void Start()
+    private bool cameraNotActivated = true;
+    public GameObject introCamera;
+    public float IntroTime;
+    public GameObject MainCameras;
+
+    public float OutroTime;
+
+
+    private void Start()
     {
+        if (IntroPlayed)
+        {
+            GetComponent<AudioSource>().enabled = false;
+            IntroTime = 0;
+        }
+
         StartCoroutine(EnableMainCameras());
         Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1f);
         Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1f);
-        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0, new string[] { "Milk!", "That!", "Cow!" }, 3f);
+        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0,
+            new[] {"Milk!", "That!", "Cow!"}, 3f);
         StartCoroutine(MilkThatCow());
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
     }
 
     private IEnumerator EnableMainCameras()
@@ -44,11 +49,13 @@ public class EnableMainCamera : MonoBehaviour
             Game_Manager.StartGame();
             AM.Play("BGMusic");
         }
-
     }
 
-    public IEnumerator MilkThatCow() {
+    public IEnumerator MilkThatCow()
+    {
         yield return new WaitForSeconds(OutroTime);
-        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0, new string[] { "Milk!", "That!", "Cow!" }, 3f);
+        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0,
+            new[] {"Milk!", "That!", "Cow!"}, 3f);
+        IntroPlayed = true;
     }
 }
