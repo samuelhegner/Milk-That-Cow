@@ -54,8 +54,7 @@ public class Game_Manager : MonoBehaviour
     public static void StartGame()
     {
         GameIsActive = true;
-        Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1f);
-        Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1f);
+        
     }
 
     public static float Map(float a, float b, float c, float d, float e)
