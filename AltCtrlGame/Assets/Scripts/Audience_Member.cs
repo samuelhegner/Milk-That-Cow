@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class Audience_Member : MonoBehaviour
 {
+    
 
     public Camera audienceCamera;
+    public int ran;
+
+    public bool multipleAnimations;
     
     public enum ViewerState {
         idle,
@@ -18,12 +23,19 @@ public class Audience_Member : MonoBehaviour
 
     Vector3 idlePos;
     Vector3 cheerPos;
+
+    Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         idlePos = transform.position;
         cheerPos = transform.position;
         cheerPos.y += 5f;
+        anim = GetComponent<Animator>();
+
+        if (anim.parameterCount > 2) {
+            multipleAnimations = true;
+        }
     }
 
     // Update is called once per frame
@@ -32,12 +44,6 @@ public class Audience_Member : MonoBehaviour
         switch (currentState) {
             case ViewerState.idle:
                 Idle();
-                break;
-            case ViewerState.chanting:
-                Chanting();
-                break;
-            case ViewerState.chugging:
-                Chugging();
                 break;
             case ViewerState.cheering:
                 Cheering();
@@ -51,24 +57,21 @@ public class Audience_Member : MonoBehaviour
     }
 
     void Idle() {
-        transform.position = Vector3.Lerp(transform.position, idlePos, Time.deltaTime);
+        anim.SetBool("idle", true);
     }
 
     void Cheering() {
-        transform.position = Vector3.Lerp(transform.position, cheerPos, Time.deltaTime);
+        if (multipleAnimations) {
+            anim.SetInteger("ran", ran);
+        }
+        anim.SetBool("idle", false);
     }
 
-    void Chugging() {
-
-    }
-
-    void Chanting() {
-
-    }
 
     public IEnumerator ChangeState(ViewerState nextState, float maxDelay) {
-        yield return new WaitForSeconds(Random.Range(0, maxDelay));
+        yield return new WaitForSeconds((float)Random.Range(0, maxDelay));
         currentState = nextState;
+        ran = Random.Range(0, 2);
     }
 
 }

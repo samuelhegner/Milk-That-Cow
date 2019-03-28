@@ -10,7 +10,7 @@ public class Crow_Tester : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("TryCrowd", 2, 5f);
+        InvokeRepeating("TryCrowd", 2f, 5f);
     }
 
     // Update is called once per frame
@@ -27,26 +27,30 @@ public class Crow_Tester : MonoBehaviour
         {
             if (t1 == 1)
             {
-                Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1);
+                Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1f);
                 t1--;
+                print("Crowd 1 idle");
             }
             else
             {
-                Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1);
+                Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1f);
                 t1++;
+                print("Crowd 1 Cheer");
             }
             
         }
         else {
             if (t2 == 1)
             {
-                Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1);
+                Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1f);
                 t2--;
+                print("Crowd 2 idle");
             }
             else
             {
-                Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1);
+                Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1f);
                 t2++;
+                print("Crowd 2 Cheer");
             }
         }
     }
