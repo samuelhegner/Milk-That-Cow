@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 874aad40754096647bcaab74177def61
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CATRigHub005
+    100002: CATRigHub006
+    100004: CATRigLArm003
+    100006: CATRigLArm004
+    100008: CATRigLArmCollarbone001
+    100010: CATRigLArmPalm001
+    100012: CATRigRArm003
+    100014: CATRigRArm004
+    100016: CATRigRArmCollarbone001
+    100018: CATRigRArmPalm001
+    100020: CATRigSpine007
+    100022: CATRigSpine008
+    100024: CATRigSpine009
+    100026: CATRigSpine010
+    100028: CATRigSpine011
+    100030: CATRigSpine012
+    100032: CATRigSpine013
+    100034: CATRigSpine014
+    100036: CATRigSpine015
+    100038: CATRigSpine016
+    100040: CATRigSpine017
+    100042: //RootNode
+    100044: woman
+    100046: woman hub
+    400000: CATRigHub005
+    400002: CATRigHub006
+    400004: CATRigLArm003
+    400006: CATRigLArm004
+    400008: CATRigLArmCollarbone001
+    400010: CATRigLArmPalm001
+    400012: CATRigRArm003
+    400014: CATRigRArm004
+    400016: CATRigRArmCollarbone001
+    400018: CATRigRArmPalm001
+    400020: CATRigSpine007
+    400022: CATRigSpine008
+    400024: CATRigSpine009
+    400026: CATRigSpine010
+    400028: CATRigSpine011
+    400030: CATRigSpine012
+    400032: CATRigSpine013
+    400034: CATRigSpine014
+    400036: CATRigSpine015
+    400038: CATRigSpine016
+    400040: CATRigSpine017
+    400042: //RootNode
+    400044: woman
+    400046: woman hub
+    2100000: 01 - Default
+    4300000: woman
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: woman
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
