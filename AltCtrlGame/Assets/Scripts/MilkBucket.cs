@@ -4,7 +4,7 @@ using UnityEngine;
 public class MilkBucket : MonoBehaviour
 {
     public int bucketCapacity = 40;
-    private int count;
+    public int count;
     //private List<GameObject> milkList = new List<GameObject>();
 
     public void UpdateBucket(bool state)
