@@ -1255,17 +1255,27 @@ PrefabInstance:
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: force
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: randomForce
-      value: 35
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: noiseInc
+      value: 0.035
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390491, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
@@ -1296,6 +1306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390495, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d7b769a57368e43a5b010e2ee455fe, type: 3}
@@ -2689,17 +2704,27 @@ PrefabInstance:
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: force
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: randomForce
-      value: 35
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: noiseInc
+      value: 0.035
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390491, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
@@ -2726,6 +2751,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -10.85
       objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390495, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d7b769a57368e43a5b010e2ee455fe, type: 3}
 --- !u!1 &598980453 stripped
@@ -2734,38 +2764,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 573828608}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &609403225
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 1620
-  m_Height: 911
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 7
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!4 &623085536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3010603906938338302, guid: 1cdf0f66c9972484f88c7b6d6263e9f0,
@@ -5649,6 +5647,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 225053789}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1762548108
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 1620
+  m_Height: 911
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 7
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1778257185
 GameObject:
   m_ObjectHideFlags: 0
