@@ -10,6 +10,8 @@ public class EnableMainCamera : MonoBehaviour
     public GameObject MainCameras;
     public GameObject introCamera;
     private bool cameraNotActivated = true;
+
+    public AudioManager AM;
     
     
     // Start is called before the first frame update
@@ -40,6 +42,7 @@ public class EnableMainCamera : MonoBehaviour
             Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1f);
             Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1f);
             Game_Manager.StartGame();
+            AM.Play("BGMusic");
         }
 
     }
