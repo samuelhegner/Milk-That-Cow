@@ -98,7 +98,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.28
+  m_Radius: 0.6
 --- !u!50 &50136950052901686
 Rigidbody2D:
   serializedVersion: 4
@@ -177,7 +177,7 @@ TrailRenderer:
   m_Time: 0.1
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.24
+    widthMultiplier: 0.1
     widthCurve:
       serializedVersion: 2
       m_Curve:

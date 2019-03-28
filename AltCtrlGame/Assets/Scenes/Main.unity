@@ -1170,6 +1170,11 @@ PrefabInstance:
       propertyPath: randomForce
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390491, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: InputAxis
@@ -2058,6 +2063,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1719221795277273822, guid: 90cfbfd0fe879234cad7b0e4bde16e5f,
+        type: 3}
+      propertyPath: bucketCapacity
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90cfbfd0fe879234cad7b0e4bde16e5f, type: 3}
 --- !u!1001 &501629540
@@ -2221,6 +2231,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 832016275003872081, guid: a6d5d3944dc7deb43833579ae9c7a2b3,
+        type: 3}
+      propertyPath: bucketCapacity
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d5d3944dc7deb43833579ae9c7a2b3, type: 3}
@@ -2420,6 +2435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: randomForce
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800528649574390490, guid: a2d7b769a57368e43a5b010e2ee455fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1800528649574390491, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
@@ -3124,12 +3144,7 @@ PrefabInstance:
     - target: {fileID: 3154386062538085820, guid: 1cdf0f66c9972484f88c7b6d6263e9f0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2671067069992317233, guid: 1cdf0f66c9972484f88c7b6d6263e9f0,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cdf0f66c9972484f88c7b6d6263e9f0, type: 3}
@@ -4730,10 +4745,20 @@ PrefabInstance:
       propertyPath: team1TeamInfo.Udder
       value: 
       objectReference: {fileID: 1031874277}
+    - target: {fileID: 3152105381733089331, guid: 9e8e49c1c0d453e43857fe18713cae38,
+        type: 3}
+      propertyPath: milkSpawnAmount
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3152105381733089341, guid: 9e8e49c1c0d453e43857fe18713cae38,
         type: 3}
       propertyPath: burstCount
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3152105381733089341, guid: 9e8e49c1c0d453e43857fe18713cae38,
+        type: 3}
+      propertyPath: size
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e8e49c1c0d453e43857fe18713cae38, type: 3}
