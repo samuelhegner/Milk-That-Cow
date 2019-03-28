@@ -108,7 +108,5 @@ public class Crowd_Changer : MonoBehaviour
                  audience2Image.SetActive(false);
             }
          }
-
-        print(Input.GetAxis("Milk1"));
      }
 }
