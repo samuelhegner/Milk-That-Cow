@@ -52,6 +52,9 @@ public class MilkSystem : MonoBehaviour
                     milkSpawnAmount
                 );
 
+                team1TeamInfo.Udder.GetComponent<Animator>().Play("right udder pull");
+                
+
                 ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
                 p1Clicked = true;
@@ -66,6 +69,8 @@ public class MilkSystem : MonoBehaviour
                     team1TeamInfo.teamTag,
                     milkSpawnAmount
                 );
+
+                team1TeamInfo.Udder.GetComponent<Animator>().Play("left udder pull");
 
                 ScoreManager.UpdateScoreData(team1TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
@@ -98,6 +103,8 @@ public class MilkSystem : MonoBehaviour
                     milkSpawnAmount
                 );
 
+                team2TeamInfo.Udder.GetComponent<Animator>().Play("right udder pull");
+
                 ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
                 p2Clicked = true;
@@ -113,6 +120,7 @@ public class MilkSystem : MonoBehaviour
                     milkSpawnAmount
                 );
 
+                team2TeamInfo.Udder.GetComponent<Animator>().Play("left udder pull");
 
                 ScoreManager.UpdateScoreData(team2TeamInfo.teamTag, ScoreType.milkProduced, milkSpawnAmount);
 
@@ -128,5 +136,6 @@ public class MilkSystem : MonoBehaviour
         public Transform udderLeft;
         public Transform udderRight;
         public string teamTag;
+        public GameObject Udder;
     }
 }

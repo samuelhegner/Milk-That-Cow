@@ -16,16 +16,20 @@ public class MilkCollision : MonoBehaviour
         if (!DontRegisterParticle) MilkColliders.Add(gameObject);
     }
 
+    private int count;
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag(gameObject.tag) && col.GetComponent<MetaballParticleClass>())
         {
             col.GetComponent<MetaballParticleClass>().IsInfinite = true;
             col.GetComponent<MetaballParticleClass>().witinTarget = true;
+            count++;
+            Debug.Log(count);
             if (DontRegisterParticle)
             {
                 col.GetComponent<MetaballParticleClass>().SetTrailRenderer = false;
                 col.gameObject.transform.SetParent(transform);
+                
                 return;
             }
             col.GetComponent<MetaballParticleClass>().SetTrailRenderer = false;
@@ -44,10 +48,13 @@ public class MilkCollision : MonoBehaviour
             col.GetComponent<MetaballParticleClass>().IsInfinite = false;
             col.GetComponent<MetaballParticleClass>().witinTarget = false;
 
+            count--;
+
             if (DontRegisterParticle)
             {
                 col.gameObject.transform.parent = null;
                 col.GetComponent<MetaballParticleClass>().SetTrailRenderer = true;
+               
                 return;
             }
 

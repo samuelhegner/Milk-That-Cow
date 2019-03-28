@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MilkBucket : MonoBehaviour
 {
-    private readonly int bucketCapacity = 24;
+    private readonly int bucketCapacity = 80;
     private int count;
     private List<GameObject> milkList = new List<GameObject>();
 
