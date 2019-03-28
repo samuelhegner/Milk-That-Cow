@@ -22286,6 +22286,15 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 316010536, guid: 260f8a927a5e2c3479cee6ec91f61b88, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dfab8378a6b321046af15e021179766e,
+        type: 2}
+    - target: {fileID: 316010536, guid: 260f8a927a5e2c3479cee6ec91f61b88, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6200582024934476846, guid: 260f8a927a5e2c3479cee6ec91f61b88,
         type: 3}
       propertyPath: m_TargetTexture
@@ -22659,9 +22668,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1036deb35c178de44980e2c60fb420c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 60
+  totalTime: 15
   sceneToLoad: EndScreen
   timerText: {fileID: 284129576}
+  shrinkSpeed: 5
   gameElements:
   - {fileID: 1219480425}
   - {fileID: 598980453}
@@ -22737,7 +22747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ff20af4187e4940a6f570c56885e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IntroTime: 32.5
+  IntroTime: 0
   OutroTime: 26.2
   MainCameras: {fileID: 951960880}
   introCamera: {fileID: 712610299031961571}
