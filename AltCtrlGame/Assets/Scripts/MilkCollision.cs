@@ -28,11 +28,11 @@ public class MilkCollision : MonoBehaviour
         }
         if (milkBucket.CheckIfFull())
         {
-            collider.SetActive(false);
+            collider.SetActive(true);
         }
         else
         {
-            collider.SetActive(true);
+            collider.SetActive(false);
         }
     }
 
