@@ -76,14 +76,15 @@ public class Crowd_Changer : MonoBehaviour
          var firstAudienceMember1 = audience1[0];
          var firstAudienceMember2 = audience2[0];
 
-         if (Game_Manager.GameIsActive)
-         {
-             Debug.LogWarning("Audience camera disabled while game is active");
-             return;
-         }
+         //if (Game_Manager.GameIsActive)
+         //{
+         //    Debug.LogWarning("Audience camera disabled while game is active");
+         //    return;
+         //}
 
          if (mainCamera.activeSelf)
          {
+            
              if (firstAudienceMember1.currentState != Audience_Member.ViewerState.idle)
              {
                  audienceCamera1.SetActive(true);

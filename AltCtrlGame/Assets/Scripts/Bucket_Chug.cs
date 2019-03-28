@@ -133,6 +133,20 @@ public class Bucket_Chug : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+
+        if (teamTag == milkSystem.team2TeamInfo.teamTag)
+        {
+            Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1);
+        }
+        else if(teamTag == milkSystem.team1TeamInfo.teamTag) {
+            Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1);
+        }
+
+        
+
+
+
+
         rb.isKinematic = true;
         anim.Play("Chug");
 
@@ -148,6 +162,16 @@ public class Bucket_Chug : MonoBehaviour
         rb.isKinematic = false;
 
         chugging = false;
+
+        if (teamTag == milkSystem.team2TeamInfo.teamTag)
+        {
+            Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1);
+        }
+        else if (teamTag == milkSystem.team1TeamInfo.teamTag)
+        {
+            Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1);
+        }
+
         fullBucket = false;
         bucket.BucketChug(true);
     }

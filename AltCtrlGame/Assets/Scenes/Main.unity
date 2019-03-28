@@ -22476,7 +22476,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805768293}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 212312ca27181e341b5ab92d5c8db8ae, type: 3}
   m_Name: 
@@ -22493,7 +22493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ff20af4187e4940a6f570c56885e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IntroTime: 0
+  IntroTime: 32.5
   MainCameras: {fileID: 951960880}
   introCamera: {fileID: 712610299031961571}
 --- !u!82 &1805768300
@@ -28665,7 +28665,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 32.5
+  m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 114715446264564654, guid: 7118df0fa97b505488aaf3297d8d7b23, type: 2}
     value: {fileID: 712610299031961575}

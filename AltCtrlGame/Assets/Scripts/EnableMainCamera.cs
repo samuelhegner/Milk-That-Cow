@@ -14,6 +14,8 @@ public class EnableMainCamera : MonoBehaviour
     void Start()
     {
         StartCoroutine(EnableMainCameras());
+        Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1f);
+        Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1f);
     }
 
     // Update is called once per frame
@@ -31,7 +33,8 @@ public class EnableMainCamera : MonoBehaviour
             MainCameras.SetActive(true);
             introCamera.SetActive(false);
             cameraNotActivated = false;
-
+            Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.idle, 1f);
+            Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.idle, 1f);
             Game_Manager.StartGame();
         }
 
