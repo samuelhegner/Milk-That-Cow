@@ -5564,7 +5564,6 @@ MonoBehaviour:
   gameElements:
   - {fileID: 1219480425}
   - {fileID: 598980453}
-  - {fileID: 0}
 --- !u!4 &1805768295
 Transform:
   m_ObjectHideFlags: 0
