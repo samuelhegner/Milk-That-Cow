@@ -1,10 +1,12 @@
 ﻿using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+    public float mooTime;
     
     // Start is called before the first frame update
     void Awake()
@@ -27,13 +29,12 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
 
-    public void PlayDelayed(string name, float delay)
+    public void Update()
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        
-        s.source.Play();
-        
-        
-        
+        float ran = Random.Range(0f, mooTime * 30);
+        if (ran >mooTime - 1)
+        {
+            Play("Moo");
+        }
     }
 }

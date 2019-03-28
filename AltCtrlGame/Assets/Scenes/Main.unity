@@ -9797,6 +9797,12 @@ MonoBehaviour:
     volume: 1
     pitch: 1.01
     source: {fileID: 0}
+  - name: Moo
+    clip: {fileID: 8300000, guid: a5ac1755d93f1f444a86a323265b5519, type: 3}
+    volume: 1
+    pitch: 1.01
+    source: {fileID: 0}
+  mooTime: 12
 --- !u!4 &822399867
 Transform:
   m_ObjectHideFlags: 0
