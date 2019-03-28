@@ -64,6 +64,7 @@ public class Bucket_Balance : MonoBehaviour
         }
 
         SetTiltOmeter((((Mathf.PerlinNoise(randomNoiseStartX + noiseScroller, randomNoiseStartY + noiseScroller) * 2f) - 1f) * noiseScale * randomForce) + playerDisplayForce);
+
     }
 
     Vector3 AddForce() {
@@ -90,7 +91,9 @@ public class Bucket_Balance : MonoBehaviour
 
     void SetTiltOmeter(float forceInput) {
         //maps the forces input onto a -89 to 89 degree rotation and sets the arrows rotation to it
+        
         float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
         arrow.rotation = Quaternion.Euler(new Vector3(0, 0, zRot));
+        print(arrow.rotation.eulerAngles);
     }
 }
