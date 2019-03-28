@@ -50,30 +50,30 @@ public class MetaballParticleClass : MonoBehaviour
         trailRenderer = GetComponent<TrailRenderer>();
     }
 
-    private void Update()
-    {
-        if (Active)
-        {
-            VelocityLimiter();
+    //private void Update()
+    //{
+    //    if (Active)
+    //    {
+    //        VelocityLimiter();
 
-            if (LifeTime < 0)
-                return;
+    //        if (LifeTime < 0)
+    //            return;
 
-            if (IsInfinite) return;
+    //        if (IsInfinite) return;
 
-            if (delta > LifeTime)
-            {
-                delta *= 0;
-                MilkSpawner.particleList.Remove(this.gameObject);
-                Destroy(gameObject, 0.5f);
-                Active = false;
-            }
-            else
-            {
-                delta += Time.deltaTime;
-            }
-        }
-    }
+    //        if (delta > LifeTime)
+    //        {
+    //            delta *= 0;
+    //            MilkSpawner.particleList.Remove(this.gameObject);
+    //            Destroy(gameObject, 0.5f);
+    //            Active = false;
+    //        }
+    //        else
+    //        {
+    //            delta += Time.deltaTime;
+    //        }
+    //    }
+    //}
 
     public void Destroy()
     {

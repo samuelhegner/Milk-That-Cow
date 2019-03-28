@@ -5,20 +5,17 @@ public class MilkBucket : MonoBehaviour
 {
     public int bucketCapacity = 40;
     private int count;
-    private List<GameObject> milkList = new List<GameObject>();
+    //private List<GameObject> milkList = new List<GameObject>();
 
-    public void UpdateBucket(bool state, GameObject obj)
+    public void UpdateBucket(bool state)
     {
         if (state)
         {
             count++;
-            milkList.Add(obj);
         }
         else
         {
             count--;
-            if (milkList.Contains(obj))
-                milkList.Remove(obj);
         }
     }
 
