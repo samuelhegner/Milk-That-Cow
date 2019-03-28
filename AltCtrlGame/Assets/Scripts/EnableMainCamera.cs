@@ -16,7 +16,7 @@ public class EnableMainCamera : MonoBehaviour
         StartCoroutine(EnableMainCameras());
         Crowd_Changer.ChangeState(1, Audience_Member.ViewerState.cheering, 1f);
         Crowd_Changer.ChangeState(2, Audience_Member.ViewerState.cheering, 1f);
-        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0, new string[] { "Milk!", "That!", "Cow!" });
+        Text_Manager.CreateText(GameObject.Find("Main Camera").GetComponent<Camera>(), 8f, 0, new string[] { "Milk!", "That!", "Cow!" }, 3f);
     }
 
     // Update is called once per frame

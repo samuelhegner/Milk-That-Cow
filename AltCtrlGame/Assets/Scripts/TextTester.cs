@@ -19,7 +19,7 @@ public class TextTester : MonoBehaviour
     }
 
     void TryText() {
-        Text_Manager.CreateText(GameObject.Find("Camera 1").GetComponent<Camera>(), 5, 0, new string[] { "Milk!", "That!", "Cow!" });
+        Text_Manager.CreateText(GameObject.Find("Camera 1").GetComponent<Camera>(), 5, 0, new string[] { "Milk!", "That!", "Cow!" }, 0);
     }
     void TryCrowd() {
         if (keep == 0)

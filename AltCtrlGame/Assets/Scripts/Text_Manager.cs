@@ -26,14 +26,14 @@ public class Text_Manager : MonoBehaviour
         
     }
 
-    static public void CreateText(Camera cam, float lerpSpeed, float timeBetweenWords, string[] words)
+    static public void CreateText(Camera cam, float lerpSpeed, float timeBetweenWords, string[] words, float delay)
     {
         if (instance.busy)
         {
             Debug.LogWarning("Another message is being displayed");
         }
         else {
-            instance.StartCoroutine(instance.PlayWords(cam, lerpSpeed, timeBetweenWords, words, 3.5f));
+            instance.StartCoroutine(instance.PlayWords(cam, lerpSpeed, timeBetweenWords, words, delay));
         }
     }
 
