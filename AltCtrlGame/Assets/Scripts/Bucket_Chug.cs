@@ -128,7 +128,7 @@ public class Bucket_Chug : MonoBehaviour
         chugging = true;
         bucket.BucketChug(false);
         bal.enabled = false;
-        while (Vector3.Distance(transform.position, startPos) > 0.1f) {
+        while (Vector3.Distance(transform.position, startPos) > 1f) {
             joint.useSpring = true;
 
             yield return new WaitForEndOfFrame();
