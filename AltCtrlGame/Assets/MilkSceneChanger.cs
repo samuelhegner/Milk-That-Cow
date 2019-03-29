@@ -9,7 +9,7 @@ public class MilkSceneChanger : MonoBehaviour
     public string inputAxis1 = "Milk1_Vertical";
     public string inputAxis2 = "Milk2_Vertical";
     private bool SceneJustLoaded = false;
-
+    public float delay = 2.5f;
     void Start()
     {
         //SceneJustLoaded = false;
@@ -26,7 +26,7 @@ public class MilkSceneChanger : MonoBehaviour
 
     IEnumerator LoadScene()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(delay);
         while (true)
         {
             //if (!SceneJustLoaded)
