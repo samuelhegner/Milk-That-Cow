@@ -10,6 +10,14 @@ public class ScoreManager : MonoBehaviour
         scoreDataArray[index] = new ScoreData(teamTag);
     }
 
+    public static void EraseData()
+    {
+        for (int i = 0; i < scoreDataArray.Length; i++)
+        {
+            scoreDataArray[i] = new ScoreData(scoreDataArray[i].teamTag);
+        }
+    }
+
     public static ScoreData GetScoreData(string teamTag)
     {
         for (var i = 0; i < scoreDataArray.Length; i++)
@@ -33,7 +41,7 @@ public class ScoreManager : MonoBehaviour
         {
             if (scoreDataArray[i].teamTag != teamTag) continue;
 
-            if (scoreToUpdate == ScoreType.bucketsDrank) scoreDataArray[i].bucketsDrank += (int) amount;
+            if (scoreToUpdate == ScoreType.bucketsDrank) scoreDataArray[i].bucketsDrank++;
 
             if (scoreToUpdate == ScoreType.milkSplit) scoreDataArray[i].milkSplit += (int) amount;
 

@@ -24,7 +24,7 @@ public class DisplayScore : MonoBehaviour
     private void SetText(UIFields data)
     {
         var scoreData = ScoreManager.GetScoreData(data.teamTag);
-        scoreData.bucketsDrank = Random.Range(1, 15);
+        scoreData.bucketsDrank = scoreData.bucketsDrank;
         //Debug.Log(scoreData.milkSplit);
         //Debug.Log(scoreData.milkProduced);
         float milkSpilt = ((float)scoreData.milkSplit / (float)scoreData.milkProduced) * 100;

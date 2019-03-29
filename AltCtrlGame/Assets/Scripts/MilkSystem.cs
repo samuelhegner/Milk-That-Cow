@@ -24,6 +24,7 @@ public class MilkSystem : MonoBehaviour
 
     private void Start()
     {
+        //ScoreManager.EraseData();
         ScoreManager.RegisterTeam(team1TeamInfo.teamTag, 0);
         ScoreManager.RegisterTeam(team2TeamInfo.teamTag, 1);
 

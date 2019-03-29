@@ -12,6 +12,7 @@ public class MilkSceneChanger : MonoBehaviour
 
     void Start()
     {
+        //SceneJustLoaded = false;
         StartCoroutine(LoadScene());
     }
 
@@ -25,15 +26,16 @@ public class MilkSceneChanger : MonoBehaviour
 
     IEnumerator LoadScene()
     {
+        yield return new WaitForSeconds(2.5f);
         while (true)
         {
-            if (!SceneJustLoaded)
-            {
-                SceneJustLoaded = true;
-                yield return new WaitForSeconds(1f);
-            }
+            //if (!SceneJustLoaded)
+            //{
+            //    SceneJustLoaded = true;
+                
+            //}
 
-            if (Input.GetAxis(inputAxis1) < -0.8f || Input.GetAxis(inputAxis2) < -0.8f || Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetAxis(inputAxis1) < -0.8f && Input.GetAxis(inputAxis2) < -0.8f || Input.GetKeyDown(KeyCode.Space))
             {
                 SceneManager.LoadScene(sceneToLoad);
             }
