@@ -21,6 +21,7 @@ public class Game_Manager : MonoBehaviour
     public static bool GameIsActive = false;
 
     public GameObject[] gameElements;
+    public GameObject[] objectsToDisable;
     void Start()
     {
         timer = totalTime;
@@ -59,6 +60,11 @@ public class Game_Manager : MonoBehaviour
         for (int i = 0; i < gameElements.Length; i++)
         {
             gameElements[i].SetActive(state);
+        }
+
+        for (int i = 0; i < objectsToDisable.Length; i++)
+        {
+            objectsToDisable[i].SetActive(!state);
         }
     }
 

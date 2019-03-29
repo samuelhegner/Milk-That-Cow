@@ -2794,7 +2794,7 @@ PrefabInstance:
         type: 3}
       propertyPath: chugClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0013e28e3aba5f545bbc0b9beeef2fbb, type: 3}
+      objectReference: {fileID: 8300000, guid: 82d855aab4b6e6d49a6a13ff64bc39e4, type: 3}
     - target: {fileID: 1800528649303079628, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: m_IsActive
@@ -7352,7 +7352,7 @@ PrefabInstance:
         type: 3}
       propertyPath: chugClip
       value: 
-      objectReference: {fileID: 8300000, guid: 0013e28e3aba5f545bbc0b9beeef2fbb, type: 3}
+      objectReference: {fileID: 8300000, guid: 82d855aab4b6e6d49a6a13ff64bc39e4, type: 3}
     - target: {fileID: 1800528649303079628, guid: a2d7b769a57368e43a5b010e2ee455fe,
         type: 3}
       propertyPath: m_IsActive
@@ -7388,7 +7388,7 @@ GameObject:
   - component: {fileID: 575793877}
   - component: {fileID: 575793876}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21132,7 +21132,7 @@ GameObject:
   - component: {fileID: 1655502061}
   - component: {fileID: 1655502060}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21512,11 +21512,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 245747847}
     m_Modifications:
-    - target: {fileID: 5919654196469604346, guid: 01475a0c1f685814d88118eca15b3266,
-        type: 3}
-      propertyPath: m_Name
-      value: BarnCardboard
-      objectReference: {fileID: 0}
     - target: {fileID: 5257598004071553691, guid: 01475a0c1f685814d88118eca15b3266,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21586,6 +21581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919654196469604346, guid: 01475a0c1f685814d88118eca15b3266,
+        type: 3}
+      propertyPath: m_Name
+      value: BarnCardboard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01475a0c1f685814d88118eca15b3266, type: 3}
@@ -23222,15 +23222,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21490190840425296, guid: dfab8378a6b321046af15e021179766e,
         type: 2}
+    - target: {fileID: 1733164740, guid: 260f8a927a5e2c3479cee6ec91f61b88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6200582024934476846, guid: 260f8a927a5e2c3479cee6ec91f61b88,
         type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 429339072}
-    - target: {fileID: 1733164740, guid: 260f8a927a5e2c3479cee6ec91f61b88, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 486282, guid: 260f8a927a5e2c3479cee6ec91f61b88, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1562678
@@ -23670,13 +23670,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1036deb35c178de44980e2c60fb420c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 6000
+  totalTime: 60
   sceneToLoad: EndScreen
   timerText: {fileID: 284129576}
   shrinkSpeed: 5
   gameElements:
   - {fileID: 1219480425}
   - {fileID: 598980453}
+  objectsToDisable:
+  - {fileID: 1655502059}
+  - {fileID: 575793875}
 --- !u!4 &1805768295
 Transform:
   m_ObjectHideFlags: 0
@@ -23765,7 +23768,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2463f8a4d0b5c0748b3a1d7f0ca3b093, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
