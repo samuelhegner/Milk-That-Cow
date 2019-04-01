@@ -16,7 +16,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.497021, y: 0.49702078, z: -0.5029614, w: 0.50296146}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -32,7 +32,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 4.6566156e-10, y: 0.0000000079433, z: -9.32885e-11, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -48,7 +48,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 4.65016e-10, y: -0.0020933426, z: -5.7745575e-10, w: 0.9999978}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -64,7 +64,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -4.5871937e-10, y: -0.0033682717, z: 4.0597278e-10, w: 0.99999434}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -83,17 +83,15 @@ AnimationClip:
         time: 0
         value: {x: -4.6295184e-10, y: -0.0037925104, z: -7.000403e-10, w: 0.9999928}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0.0000000018887312, y: 0.00000022531998, z: 0.0000000028560487,
-          w: 0}
+        outSlope: {x: 0.0000000018887445, y: 0, z: 0.0000000028560487, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -4.6295184e-10, y: -0.0037925104, z: -7.000403e-10, w: 0.9999928}
-        inSlope: {x: 0.0000000013396274, y: 0.00000022531998, z: 0.0000000020257451,
-          w: 0}
+        inSlope: {x: 0.0000000013393184, y: 0, z: 0.0000000020251274, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -107,7 +105,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 4.823275e-10, y: -0.0033682173, z: 9.840427e-10, w: 0.99999434}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -123,7 +121,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 9.409895e-10, y: -0.0020933223, z: -0.0000000011324058, w: 0.9999978}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -139,7 +137,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 2.7751113e-16, y: -4.842491e-10, z: -9.219703e-11, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -155,7 +153,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -5.840445e-11, y: 0.5060444, z: 9.954566e-11, w: 0.8625074}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -171,7 +169,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.54309845, y: 0.23072611, z: -0.7059553, w: 0.39170992}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +185,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.21050502, y: -0.17498718, z: -0.1144544, w: 0.95496976}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -203,7 +201,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5
+        time: 0.2
         value: {x: -0.83435744, y: 0.011915229, z: -0.043097667, w: 0.5494073}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -212,7 +210,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.83435744, y: 0.011915229, z: -0.043097667, w: 0.5494073}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +226,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.000000013231186, y: -0.5060444, z: 0.00000000782819, w: 0.86250746}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -244,7 +242,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.7
+        time: 0.28
         value: {x: -0.5566118, y: -0.28904694, z: -0.66823816, w: 0.40011618}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +251,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.5566118, y: -0.28904694, z: -0.66823816, w: 0.40011618}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -269,7 +267,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.27238992, y: 0.29252115, z: -0.09984038, w: 0.9111899}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -285,7 +283,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.706591, y: -0.121697396, z: 0.18524957, w: 0.6720129}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +299,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.0000000010697914, y: 0.000000036325424, z: 0.0033990475, w: 0.9999942}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -318,18 +316,18 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: {x: 1.573042e-10, y: 0.000000018634879, z: 0.022796685, w: 0.9997401}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -2.836621e-10, y: -0.000000033608682, z: 0, w: 0}
+        outSlope: {x: -2.8310693e-10, y: -0.00000003361756, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1.573042e-10, y: 0.000000018634879, z: 0.022796685, w: 0.9997401}
-        inSlope: {x: -0.000000004710678, y: -0.0000005580072, z: 0, w: 0}
+        inSlope: {x: -0.0000000047087343, y: -0.000000557865, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -344,18 +342,18 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: {x: -1.3945545e-10, y: -0.00000005684914, z: 0.034408666, w: 0.9994078}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 2.5396354e-10, y: 0.00000010355717, z: 0, w: 0}
+        outSlope: {x: 2.5188188e-10, y: 0.00000010351721, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -1.3945545e-10, y: -0.00000005684914, z: 0.034408666, w: 0.9994078}
-        inSlope: {x: 0.0000000015674962, y: 0.00000063823614, z: 0, w: 0}
+        inSlope: {x: 0.0000000015674964, y: 0.0000006381896, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -370,18 +368,18 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: {x: 0.000000004231789, y: 0.00000005978565, z: 0.034408666, w: 0.9994078}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.0000000077105, y: -0.00000010889956, z: 0, w: 0}
+        outSlope: {x: -0.0000000077105, y: -0.00000010891289, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.000000004231789, y: 0.00000005978565, z: 0.034408666, w: 0.9994078}
-        inSlope: {x: -0.000000047505335, y: -0.00000067111654, z: 0, w: 0}
+        inSlope: {x: -0.000000047503672, y: -0.0000006711299, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -396,18 +394,18 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: {x: -6.5584826e-10, y: -0.0000000018780841, z: 0.022796696, w: 0.9997401}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0.000000001182388, y: 0.0000000033861813, z: 0, w: 0}
+        outSlope: {x: 0.0000000011837755, y: 0.000000003386181, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -6.5584826e-10, y: -0.0000000018780841, z: 0.022796696, w: 0.9997401}
-        inSlope: {x: 0.000000019638742, y: 0.000000056228377, z: 0, w: 0}
+        inSlope: {x: 0.000000019634298, y: 0.000000056216155, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -422,7 +420,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.000000005489769, y: -0.000000028889838, z: 0.0033990282, w: 0.9999942}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -442,7 +440,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.9340953, y: 0.25489143, z: -0.12428069}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -458,7 +456,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -474,7 +472,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.68890554, y: 0, z: -0.00000009689331}
         inSlope: {x: -7.25135e-15, y: 0, z: 0}
         outSlope: {x: -7.25135e-15, y: 0, z: 0}
@@ -490,7 +488,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.6889056, y: 0, z: 0.00000009689331}
         inSlope: {x: -4.834233e-15, y: 0, z: 0}
         outSlope: {x: -4.834233e-15, y: 0, z: 0}
@@ -506,7 +504,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.68890524, y: 0, z: -0.00000009689331}
         inSlope: {x: -0, y: 0, z: 0}
         outSlope: {x: -0, y: 0, z: 0}
@@ -522,7 +520,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.6889054, y: 0, z: 0.00000009689331}
         inSlope: {x: -7.25135e-15, y: 0, z: 0}
         outSlope: {x: -7.25135e-15, y: 0, z: 0}
@@ -538,7 +536,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.68890524, y: 0, z: 0.00000009689331}
         inSlope: {x: -0, y: 0, z: 0}
         outSlope: {x: -0, y: 0, z: 0}
@@ -554,7 +552,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.6889056, y: -0.000000012111664, z: 0.00000009689331}
         inSlope: {x: -4.834233e-15, y: 0, z: 0}
         outSlope: {x: -4.834233e-15, y: 0, z: 0}
@@ -570,7 +568,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0, y: 0, z: 0.73752433}
         inSlope: {x: -0, y: 0, z: 0}
         outSlope: {x: -0, y: 0, z: 0}
@@ -586,7 +584,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -1.2610345, y: 0, z: 0}
         inSlope: {x: -9.668466e-15, y: 0, z: 0}
         outSlope: {x: -9.668466e-15, y: 0, z: 0}
@@ -602,7 +600,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -2.4224117, y: 0, z: 0.00000019378662}
         inSlope: {x: -0, y: 0, z: 0}
         outSlope: {x: -0, y: 0, z: 0}
@@ -627,7 +625,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -2.0491698, y: 0, z: 0}
         inSlope: {x: -1.9336932e-14, y: -0, z: -0}
         outSlope: {x: -1.9336932e-14, y: -0, z: -0}
@@ -643,7 +641,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.00000038757324, y: 0, z: -0.7375241}
         inSlope: {x: -2.305142e-21, y: 0, z: 0}
         outSlope: {x: -2.305142e-21, y: 0, z: 0}
@@ -659,7 +657,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -1.2610343, y: 0, z: 0.00000019378662}
         inSlope: {x: -9.668466e-15, y: 0, z: 0}
         outSlope: {x: -9.668466e-15, y: 0, z: 0}
@@ -675,7 +673,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -2.4230218, y: 0, z: 0}
         inSlope: {x: 6.123362e-14, y: 0, z: 0}
         outSlope: {x: 6.123362e-14, y: 0, z: 0}
@@ -691,7 +689,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -2.0496852, y: 0, z: 0.00000019378662}
         inSlope: {x: -1.9336932e-14, y: 0, z: 0}
         outSlope: {x: -1.9336932e-14, y: 0, z: 0}
@@ -707,7 +705,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -724,7 +722,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.6604802, y: 0, z: 0}
         inSlope: {x: -7.25135e-15, y: 0, z: 0}
         outSlope: {x: -7.25135e-15, y: 0, z: 0}
@@ -741,7 +739,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.06666667
         value: {x: -0.66047984, y: -0.000000024223327, z: -0.00000009689331}
         inSlope: {x: -2.4171165e-15, y: -1.4407137e-22, z: -5.762855e-22}
         outSlope: {x: -2.4171165e-15, y: -1.4407137e-22, z: -5.762855e-22}
@@ -750,7 +748,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.66047984, y: -0.000000024223327, z: -0.00000009689331}
         inSlope: {x: -2.4171165e-15, y: -1.4407137e-22, z: -5.762855e-22}
         outSlope: {x: -2.4171165e-15, y: -1.4407137e-22, z: -5.762855e-22}
@@ -767,7 +765,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.66047984, y: 0, z: 0.00000009689331}
         inSlope: {x: -2.4171165e-15, y: 0, z: 0}
         outSlope: {x: -2.4171165e-15, y: 0, z: 0}
@@ -784,7 +782,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.66047984, y: -0.00000009689331, z: -0.00000009689331}
         inSlope: {x: -2.4171165e-15, y: 0, z: 0}
         outSlope: {x: -2.4171165e-15, y: 0, z: 0}
@@ -801,7 +799,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: -0.6604806, y: 0, z: 0}
         inSlope: {x: -2.4171165e-15, y: 0, z: 0}
         outSlope: {x: -2.4171165e-15, y: 0, z: 0}
@@ -819,7 +817,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -835,7 +833,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -851,7 +849,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -867,7 +865,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -883,7 +881,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -899,7 +897,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -915,7 +913,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -931,7 +929,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -947,7 +945,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1.0000001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -963,7 +961,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1.0000024, y: 1.0000002, z: 0.9999974}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -979,7 +977,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1.0000083, y: 1.0000018, z: 0.9999897}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -995,7 +993,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1.0000226, y: 1.0000131, z: 0.99996364}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1011,7 +1009,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1.0000002}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1027,7 +1025,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.99999994, y: 1, z: 1.0000001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1043,7 +1041,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.99999994, y: 1.0000001, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1059,7 +1057,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 0.9999976, y: 1.0000027, z: 0.99999905}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1075,7 +1073,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1092,7 +1090,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1109,7 +1107,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1126,7 +1124,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1143,7 +1141,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1160,7 +1158,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1175,7 +1173,7 @@ AnimationClip:
       1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
   m_FloatCurves: []
   m_PPtrCurves: []
-  m_SampleRate: 60
+  m_SampleRate: 150
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -1650,7 +1648,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0333333
+    m_StopTime: 0.41333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -1670,7 +1668,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.9340953
         inSlope: 0
         outSlope: 0
@@ -1689,7 +1687,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.25489143
         inSlope: 0
         outSlope: 0
@@ -1708,7 +1706,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.12428069
         inSlope: 0
         outSlope: 0
@@ -1727,83 +1725,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: -0.497021
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.49702078
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.5029614
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.50296146
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999994
         inSlope: 0
         outSlope: 0
@@ -1822,7 +1744,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999994
         inSlope: 0
         outSlope: 0
@@ -1841,7 +1763,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999994
         inSlope: 0
         outSlope: 0
@@ -1860,7 +1782,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0
         inSlope: 0
         outSlope: 0
@@ -1879,7 +1801,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1898,7 +1820,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1917,83 +1839,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 4.6566156e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.0000000079433
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -9.32885e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2012,7 +1858,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2031,7 +1877,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2050,7 +1896,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.68890554
         inSlope: -7.25135e-15
         outSlope: -7.25135e-15
@@ -2069,7 +1915,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -2088,7 +1934,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -2107,83 +1953,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 4.65016e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0020933426
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -5.7745575e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9999978
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2202,7 +1972,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2221,7 +1991,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2240,7 +2010,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.6889056
         inSlope: -4.834233e-15
         outSlope: -4.834233e-15
@@ -2259,7 +2029,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -2278,7 +2048,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000009689331
         inSlope: 5.762855e-22
         outSlope: 5.762855e-22
@@ -2297,83 +2067,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: -4.5871937e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0033682717
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 4.0597278e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.99999434
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2392,7 +2086,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2411,7 +2105,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2430,7 +2124,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.68890524
         inSlope: -0
         outSlope: -0
@@ -2449,7 +2143,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -2468,7 +2162,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -2487,119 +2181,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: -4.6295184e-10
-        inSlope: 0
-        outSlope: 0.0000000018887312
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -4.6295184e-10
-        inSlope: 0.0000000013396274
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.0037925104
-        inSlope: 0
-        outSlope: 0.00000022531998
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0037925104
-        inSlope: 0.00000022531998
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -7.000403e-10
-        inSlope: 0
-        outSlope: 0.0000000028560487
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -7.000403e-10
-        inSlope: 0.0000000020257451
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.9999928
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9999928
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2618,7 +2200,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2637,7 +2219,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2656,7 +2238,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.6889054
         inSlope: -7.25135e-15
         outSlope: -7.25135e-15
@@ -2675,7 +2257,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -2694,7 +2276,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000009689331
         inSlope: 5.762855e-22
         outSlope: 5.762855e-22
@@ -2713,83 +2295,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 4.823275e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0033682173
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 9.840427e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.99999434
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2808,7 +2314,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2827,7 +2333,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2846,7 +2352,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.68890524
         inSlope: -0
         outSlope: -0
@@ -2865,7 +2371,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -2884,7 +2390,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000009689331
         inSlope: 5.762855e-22
         outSlope: 5.762855e-22
@@ -2903,83 +2409,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 9.409895e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0020933223
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0000000011324058
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9999978
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -2998,7 +2428,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3017,7 +2447,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3036,7 +2466,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.6889056
         inSlope: -4.834233e-15
         outSlope: -4.834233e-15
@@ -3055,7 +2485,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000012111664
         inSlope: -7.2035686e-23
         outSlope: -7.2035686e-23
@@ -3074,7 +2504,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000009689331
         inSlope: 5.762855e-22
         outSlope: 5.762855e-22
@@ -3093,83 +2523,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 2.7751113e-16
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -4.842491e-10
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -9.219703e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3188,7 +2542,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3207,7 +2561,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3226,7 +2580,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0
         inSlope: -0
         outSlope: -0
@@ -3245,7 +2599,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3264,7 +2618,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.73752433
         inSlope: 4.834233e-15
         outSlope: 4.834233e-15
@@ -3283,83 +2637,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: -5.840445e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.5060444
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 9.954566e-11
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.8625074
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3378,7 +2656,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -3397,7 +2675,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000001
         inSlope: 0
         outSlope: 0
@@ -3416,7 +2694,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -1.2610345
         inSlope: -9.668466e-15
         outSlope: -9.668466e-15
@@ -3435,7 +2713,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3454,7 +2732,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3473,83 +2751,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.54309845
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.23072611
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.7059553
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.39170992
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000024
         inSlope: 0
         outSlope: 0
@@ -3568,7 +2770,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000002
         inSlope: 0
         outSlope: 0
@@ -3587,7 +2789,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.9999974
         inSlope: 0
         outSlope: 0
@@ -3606,7 +2808,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -2.4224117
         inSlope: -0
         outSlope: -0
@@ -3625,7 +2827,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3644,7 +2846,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000019378662
         inSlope: 1.152571e-21
         outSlope: 1.152571e-21
@@ -3663,83 +2865,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.21050502
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.17498718
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.1144544
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.95496976
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000083
         inSlope: 0
         outSlope: 0
@@ -3758,7 +2884,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000018
         inSlope: 0
         outSlope: 0
@@ -3777,7 +2903,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.9999897
         inSlope: 0
         outSlope: 0
@@ -3805,7 +2931,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -2.0491698
         inSlope: -1.9336932e-14
         outSlope: -1.9336932e-14
@@ -3833,7 +2959,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3861,7 +2987,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -3880,119 +3006,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5
-        value: -0.83435744
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.83435744
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.011915229
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.011915229
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.043097667
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.043097667
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.5494073
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.5494073
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000226
         inSlope: 0
         outSlope: 0
@@ -4011,7 +3025,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000131
         inSlope: 0
         outSlope: 0
@@ -4030,7 +3044,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99996364
         inSlope: 0
         outSlope: 0
@@ -4049,7 +3063,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000038757324
         inSlope: -2.305142e-21
         outSlope: -2.305142e-21
@@ -4068,7 +3082,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -4087,7 +3101,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.7375241
         inSlope: -7.25135e-15
         outSlope: -7.25135e-15
@@ -4106,83 +3120,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.000000013231186
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.5060444
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.00000000782819
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.86250746
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -4201,7 +3139,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -4220,7 +3158,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000002
         inSlope: 0
         outSlope: 0
@@ -4239,7 +3177,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -1.2610343
         inSlope: -9.668466e-15
         outSlope: -9.668466e-15
@@ -4258,7 +3196,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -4277,7 +3215,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000019378662
         inSlope: 1.152571e-21
         outSlope: 1.152571e-21
@@ -4296,119 +3234,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.7
-        value: -0.5566118
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.5566118
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.7
-        value: -0.28904694
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.28904694
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.7
-        value: -0.66823816
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.66823816
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.7
-        value: 0.40011618
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.40011618
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999994
         inSlope: 0
         outSlope: 0
@@ -4427,7 +3253,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -4446,7 +3272,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000001
         inSlope: 0
         outSlope: 0
@@ -4465,7 +3291,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -2.4230218
         inSlope: 6.123362e-14
         outSlope: 6.123362e-14
@@ -4484,7 +3310,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -4503,7 +3329,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -4522,83 +3348,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.27238992
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.29252115
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.09984038
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9111899
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999994
         inSlope: 0
         outSlope: 0
@@ -4617,7 +3367,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000001
         inSlope: 0
         outSlope: 0
@@ -4636,7 +3386,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -4655,7 +3405,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -2.0496852
         inSlope: -1.9336932e-14
         outSlope: -1.9336932e-14
@@ -4674,7 +3424,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -4693,7 +3443,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000019378662
         inSlope: 1.152571e-21
         outSlope: 1.152571e-21
@@ -4712,83 +3462,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.706591
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.121697396
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.18524957
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.6720129
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.9999976
         inSlope: 0
         outSlope: 0
@@ -4807,7 +3481,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1.0000027
         inSlope: 0
         outSlope: 0
@@ -4826,7 +3500,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.99999905
         inSlope: 0
         outSlope: 0
@@ -4845,7 +3519,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0
         inSlope: 0
         outSlope: 0
@@ -4865,7 +3539,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4885,7 +3559,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4905,87 +3579,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: 0.0000000010697914
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.000000036325424
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.0033990475
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9999942
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5005,7 +3599,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5025,7 +3619,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5045,7 +3639,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.6604802
         inSlope: -7.25135e-15
         outSlope: -7.25135e-15
@@ -5065,7 +3659,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -5085,7 +3679,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -5105,123 +3699,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
-        value: 1.573042e-10
-        inSlope: 0
-        outSlope: -2.836621e-10
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 1.573042e-10
-        inSlope: -0.000000004710678
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: 0.000000018634879
-        inSlope: 0
-        outSlope: -0.000000033608682
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.000000018634879
-        inSlope: -0.0000005580072
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: 0.022796685
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.022796685
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: 0.9997401
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9997401
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5241,7 +3719,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5261,7 +3739,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5281,7 +3759,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.06666667
         value: -0.66047984
         inSlope: -2.4171165e-15
         outSlope: -2.4171165e-15
@@ -5290,7 +3768,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.66047984
         inSlope: -2.4171165e-15
         outSlope: -2.4171165e-15
@@ -5310,7 +3788,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.06666667
         value: -0.000000024223327
         inSlope: -1.4407137e-22
         outSlope: -1.4407137e-22
@@ -5319,7 +3797,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000024223327
         inSlope: -1.4407137e-22
         outSlope: -1.4407137e-22
@@ -5339,7 +3817,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.06666667
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -5348,7 +3826,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -5368,123 +3846,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
-        value: -1.3945545e-10
-        inSlope: 0
-        outSlope: 2.5396354e-10
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -1.3945545e-10
-        inSlope: 0.0000000015674962
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: -0.00000005684914
-        inSlope: 0
-        outSlope: 0.00000010355717
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.00000005684914
-        inSlope: 0.00000063823614
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: 0.034408666
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.034408666
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: 0.9994078
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9994078
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5504,7 +3866,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5524,7 +3886,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5544,7 +3906,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.66047984
         inSlope: -2.4171165e-15
         outSlope: -2.4171165e-15
@@ -5564,7 +3926,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -5584,7 +3946,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000009689331
         inSlope: 5.762855e-22
         outSlope: 5.762855e-22
@@ -5604,123 +3966,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
-        value: 0.000000004231789
-        inSlope: 0
-        outSlope: -0.0000000077105
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.000000004231789
-        inSlope: -0.000000047505335
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: 0.00000005978565
-        inSlope: 0
-        outSlope: -0.00000010889956
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.00000005978565
-        inSlope: -0.00000067111654
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: 0.034408666
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.034408666
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.76666665
-        value: 0.9994078
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9994078
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5740,7 +3986,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5760,7 +4006,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5780,7 +4026,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.66047984
         inSlope: -2.4171165e-15
         outSlope: -2.4171165e-15
@@ -5800,7 +4046,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -5820,7 +4066,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000009689331
         inSlope: -5.762855e-22
         outSlope: -5.762855e-22
@@ -5840,123 +4086,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
-        value: -6.5584826e-10
-        inSlope: 0
-        outSlope: 0.000000001182388
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -6.5584826e-10
-        inSlope: 0.000000019638742
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: -0.0000000018780841
-        inSlope: 0
-        outSlope: 0.0000000033861813
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.0000000018780841
-        inSlope: 0.000000056228377
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: 0.022796696
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.022796696
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.93333334
-        value: 0.9997401
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9997401
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5976,7 +4106,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5996,7 +4126,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -6016,7 +4146,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.6604806
         inSlope: -2.4171165e-15
         outSlope: -2.4171165e-15
@@ -6036,7 +4166,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -6056,7 +4186,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0
         inSlope: -0
         outSlope: -0
@@ -6076,87 +4206,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
-        value: -0.000000005489769
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: -0.000000028889838
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.0033990282
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
-        value: 0.9999942
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
-      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -6176,7 +4226,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -6196,7 +4246,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -6212,12 +4262,1960 @@ AnimationClip:
       1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.497021
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.49702078
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.5029614
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.50296146
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 4.6566156e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.0000000079433
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -9.32885e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 4.65016e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0020933426
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -5.7745575e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9999978
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -4.5871937e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0033682717
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 4.0597278e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.99999434
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4.6295184e-10
+        inSlope: 0
+        outSlope: 0.0000000018887445
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -4.6295184e-10
+        inSlope: 0.0000000013393184
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0037925104
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0037925104
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -7.000403e-10
+        inSlope: 0
+        outSlope: 0.0000000028560487
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -7.000403e-10
+        inSlope: 0.0000000020251274
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9999928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9999928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 4.823275e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0033682173
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 9.840427e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.99999434
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 9.409895e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0020933223
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0000000011324058
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9999978
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 2.7751113e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -4.842491e-10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -9.219703e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -5.840445e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.5060444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 9.954566e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.8625074
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.54309845
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.23072611
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.7059553
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.39170992
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.21050502
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.17498718
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.1144544
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.95496976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.83435744
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.83435744
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.011915229
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.011915229
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: -0.043097667
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.043097667
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.5494073
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.5494073
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.000000013231186
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.5060444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.00000000782819
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.86250746
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.28
+        value: -0.5566118
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.5566118
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.28
+        value: -0.28904694
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.28904694
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.28
+        value: -0.66823816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.66823816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.28
+        value: 0.40011618
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.40011618
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.27238992
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.29252115
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.09984038
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9111899
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.706591
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.121697396
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.18524957
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.6720129
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.0000000010697914
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.000000036325424
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.0033990475
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9999942
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 1.573042e-10
+        inSlope: 0
+        outSlope: -2.8310693e-10
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 1.573042e-10
+        inSlope: -0.0000000047087343
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 0.000000018634879
+        inSlope: 0
+        outSlope: -0.00000003361756
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.000000018634879
+        inSlope: -0.000000557865
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 0.022796685
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.022796685
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 0.9997401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9997401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: -1.3945545e-10
+        inSlope: 0
+        outSlope: 2.5188188e-10
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -1.3945545e-10
+        inSlope: 0.0000000015674964
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: -0.00000005684914
+        inSlope: 0
+        outSlope: 0.00000010351721
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.00000005684914
+        inSlope: 0.0000006381896
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.034408666
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.034408666
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.9994078
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9994078
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.000000004231789
+        inSlope: 0
+        outSlope: -0.0000000077105
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.000000004231789
+        inSlope: -0.000000047503672
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.00000005978565
+        inSlope: 0
+        outSlope: -0.00000010891289
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.00000005978565
+        inSlope: -0.0000006711299
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.034408666
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.034408666
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.30666667
+        value: 0.9994078
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9994078
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: -6.5584826e-10
+        inSlope: 0
+        outSlope: 0.0000000011837755
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -6.5584826e-10
+        inSlope: 0.000000019634298
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: -0.0000000018780841
+        inSlope: 0
+        outSlope: 0.000000003386181
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.0000000018780841
+        inSlope: 0.000000056216155
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 0.022796696
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.022796696
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.37333333
+        value: 0.9997401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9997401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.000000005489769
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: -0.000000028889838
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.0033990282
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.41333333
+        value: 0.9999942
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: CATRigHub001/CATRigSpine1/CATRigSpine2/CATRigSpine3/CATRigSpine4/CATRigSpine5/CATRigSpine6/CATRigHub002/CATRigSpine1
+      1/CATRigSpine2 1/CATRigSpine3 1/CATRigSpine4 1/CATRigSpine5 1/CATRigHub003
+    classID: 4
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000013660378
         inSlope: -0.0000014385703
         outSlope: -0.0000014385703
@@ -6236,7 +6234,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 89.31925
         inSlope: -0.000006866455
         outSlope: -0.000006866455
@@ -6255,7 +6253,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -90
         inSlope: 0
         outSlope: 0
@@ -6274,7 +6272,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000000053360882
         inSlope: -0.00000004802479
         outSlope: -0.00000004802479
@@ -6293,7 +6291,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000091023503
         inSlope: -0.0000008192115
         outSlope: -0.0000008192115
@@ -6312,7 +6310,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000010690073
         inSlope: 0.000000009621065
         outSlope: 0.000000009621065
@@ -6331,7 +6329,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000005314827
         inSlope: -0.00000014947952
         outSlope: -0.00000014947952
@@ -6350,7 +6348,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.23987956
         inSlope: -0.0000108545655
         outSlope: -0.0000108545655
@@ -6369,7 +6367,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000006628295
         inSlope: 0.0000001864208
         outSlope: 0.0000001864208
@@ -6388,7 +6386,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000052408367
         inSlope: 0.00000013102091
         outSlope: 0.00000013102091
@@ -6407,7 +6405,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.3859762
         inSlope: 0.000012814998
         outSlope: 0.000012814998
@@ -6426,7 +6424,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000000046697842
         inSlope: -0.00000011674461
         outSlope: -0.00000011674461
@@ -6454,7 +6452,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000005335422
         inSlope: 0.00000015489935
         outSlope: 0.00000015489935
@@ -6482,7 +6480,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.43459067
         inSlope: 0.0000147954115
         outSlope: 0.0000147954115
@@ -6510,7 +6508,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000008001693
         inSlope: 0.00000023230722
         outSlope: 0.00000023230722
@@ -6529,7 +6527,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000005565015
         inSlope: -0.00000013912538
         outSlope: -0.00000013912538
@@ -6548,7 +6546,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.38596994
         inSlope: -0.0000028312206
         outSlope: -0.0000028312206
@@ -6567,7 +6565,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000000112576174
         inSlope: -0.00000028144044
         outSlope: -0.00000028144044
@@ -6586,7 +6584,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000000107557575
         inSlope: -0.0000003025057
         outSlope: -0.0000003025057
@@ -6605,7 +6603,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.23987722
         inSlope: -0.00001743436
         outSlope: -0.00001743436
@@ -6624,7 +6622,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000012998959
         inSlope: 0.00000036559572
         outSlope: 0.00000036559572
@@ -6643,7 +6641,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 3.1795313e-14
         inSlope: -2.861578e-14
         outSlope: -2.861578e-14
@@ -6662,7 +6660,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000055490855
         inSlope: 0.000000049941765
         outSlope: 0.000000049941765
@@ -6681,7 +6679,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000010565
         inSlope: 0.0000000095085
         outSlope: 0.0000000095085
@@ -6700,7 +6698,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000011544961
         inSlope: 0.0000000103904645
         outSlope: 0.0000000103904645
@@ -6719,7 +6717,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 60.80141
         inSlope: -0.0000034332274
         outSlope: -0.0000034332274
@@ -6738,7 +6736,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000000645192
         inSlope: -0.0000000058067275
         outSlope: -0.0000000058067275
@@ -6757,7 +6755,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 48.697792
         inSlope: -0.000020807436
         outSlope: -0.000020807436
@@ -6776,7 +6774,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -62.612396
         inSlope: 0
         outSlope: 0
@@ -6795,7 +6793,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -152.72707
         inSlope: 0
         outSlope: 0
@@ -6814,7 +6812,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 21.222813
         inSlope: -0.000009034809
         outSlope: -0.000009034809
@@ -6833,7 +6831,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -24.21883
         inSlope: 0.000009034809
         outSlope: 0.000009034809
@@ -6852,7 +6850,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -18.272484
         inSlope: -0.000018069619
         outSlope: -0.000018069619
@@ -6871,7 +6869,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5
+        time: 0.2
         value: -66.31631
         inSlope: 0
         outSlope: 0
@@ -6880,7 +6878,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -66.31631
         inSlope: 0
         outSlope: 0
@@ -6899,7 +6897,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5
+        time: 0.2
         value: 167.7819
         inSlope: 0.000057220444
         outSlope: 0.000057220444
@@ -6908,7 +6906,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 167.7819
         inSlope: 0.000085830696
         outSlope: 0.000085830696
@@ -6927,7 +6925,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5
+        time: 0.2
         value: -170.36372
         inSlope: 0
         outSlope: 0
@@ -6936,7 +6934,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -170.36372
         inSlope: 0
         outSlope: 0
@@ -6955,7 +6953,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.0000017616626
         inSlope: -0.0000015854963
         outSlope: -0.0000015854963
@@ -6974,7 +6972,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -60.801403
         inSlope: -0.0000034332274
         outSlope: -0.0000034332274
@@ -6993,7 +6991,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.0000000064519967
         inSlope: -0.000000005806797
         outSlope: -0.000000005806797
@@ -7012,7 +7010,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.7
+        time: 0.28
         value: -56.276154
         inSlope: 0
         outSlope: 0
@@ -7021,7 +7019,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -56.276154
         inSlope: 0
         outSlope: 0
@@ -7040,7 +7038,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.7
+        time: 0.28
         value: 67.40969
         inSlope: 0.000014013172
         outSlope: 0.000014013172
@@ -7049,7 +7047,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 67.40969
         inSlope: 0.000068664565
         outSlope: 0.000068664565
@@ -7068,7 +7066,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.7
+        time: 0.28
         value: -157.44304
         inSlope: 0
         outSlope: 0
@@ -7077,7 +7075,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -157.44304
         inSlope: 0
         outSlope: 0
@@ -7096,7 +7094,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 33.697536
         inSlope: 0.000007629394
         outSlope: 0.000007629394
@@ -7115,7 +7113,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 35.125412
         inSlope: 0
         outSlope: 0
@@ -7134,7 +7132,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -1.5557206
         inSlope: -0.000009059905
         outSlope: -0.000009059905
@@ -7153,7 +7151,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 84.13502
         inSlope: -0.00001560558
         outSlope: -0.00001560558
@@ -7172,7 +7170,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 105.99794
         inSlope: -0.00003121116
         outSlope: -0.00003121116
@@ -7191,7 +7189,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 131.10233
         inSlope: 0
         outSlope: 0
@@ -7210,7 +7208,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000000108439515
         inSlope: -0.0000002218081
         outSlope: -0.0000002218081
@@ -7230,7 +7228,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.000004162979
         inSlope: -0.000008515184
         outSlope: -0.000008515184
@@ -7250,7 +7248,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.38950285
         inSlope: -0.000014325434
         outSlope: -0.000014325434
@@ -7270,7 +7268,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: -0.00000003065898
         inSlope: 0.00000005631241
         outSlope: 0.00000005631241
@@ -7279,7 +7277,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000003065898
         inSlope: 0.0000009197703
         outSlope: 0.0000009197703
@@ -7299,7 +7297,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: 0.0000021352555
         inSlope: -0.0000039218976
         outSlope: -0.0000039218976
@@ -7308,7 +7306,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.0000021352555
         inSlope: -0.00006405773
         outSlope: -0.00006405773
@@ -7328,7 +7326,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: 2.6125336
         inSlope: 0
         outSlope: 0
@@ -7337,7 +7335,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 2.6125336
         inSlope: 0
         outSlope: 0
@@ -7357,7 +7355,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: 0.00000020818193
         inSlope: -0.00000038237496
         outSlope: -0.00000038237496
@@ -7366,7 +7364,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000020818193
         inSlope: -0.0000023420469
         outSlope: -0.0000023420469
@@ -7386,7 +7384,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: -0.0000065111235
         inSlope: 0.000011959206
         outSlope: 0.000011959206
@@ -7395,7 +7393,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.0000065111235
         inSlope: 0.00007325014
         outSlope: 0.00007325014
@@ -7415,7 +7413,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: 3.9437208
         inSlope: 0.000008758233
         outSlope: 0.000008758233
@@ -7424,7 +7422,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 3.9437208
         inSlope: 0.000053644184
         outSlope: 0.000053644184
@@ -7444,7 +7442,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: 0.00000024890872
         inSlope: -0.00000045717925
         outSlope: -0.00000045717925
@@ -7453,7 +7451,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.00000024890872
         inSlope: -0.0000028002235
         outSlope: -0.0000028002235
@@ -7473,7 +7471,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: 0.0000068635595
         inSlope: -0.000012606537
         outSlope: -0.000012606537
@@ -7482,7 +7480,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.0000068635595
         inSlope: -0.000077215045
         outSlope: -0.000077215045
@@ -7502,7 +7500,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.76666665
+        time: 0.30666667
         value: 3.9437208
         inSlope: 0.000008758233
         outSlope: 0.000008758233
@@ -7511,7 +7509,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 3.9437208
         inSlope: 0.000053644184
         outSlope: 0.000053644184
@@ -7531,7 +7529,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: -0.000000070229
         inSlope: 0.00000012899204
         outSlope: 0.00000012899204
@@ -7540,7 +7538,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.000000070229
         inSlope: 0.000002106872
         outSlope: 0.000002106872
@@ -7560,7 +7558,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: -0.00000021686992
         inSlope: 0.00000039833247
         outSlope: 0.00000039833247
@@ -7569,7 +7567,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.00000021686992
         inSlope: 0.000006506104
         outSlope: 0.000006506104
@@ -7589,7 +7587,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.37333333
         value: 2.612535
         inSlope: -0.00000262747
         outSlope: -0.00000262747
@@ -7598,7 +7596,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 2.612535
         inSlope: -0.000042915384
         outSlope: -0.000042915384
@@ -7618,7 +7616,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.0000006178249
         inSlope: 0.0000012356497
         outSlope: 0.0000012356497
@@ -7638,7 +7636,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: -0.0000033126505
         inSlope: 0.0000066253006
         outSlope: 0.0000066253006
@@ -7658,7 +7656,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 1.0333333
+        time: 0.41333333
         value: 0.38950065
         inSlope: -0.000009596347
         outSlope: -0.000009596347
