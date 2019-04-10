@@ -66,7 +66,7 @@ public class Bucket_Chug : MonoBehaviour
         if (fullBucket) {
             if (InputAxis != "")
             {
-                if (Input.GetAxis(InputAxis) < -0.8f && !chugging)
+                if (Input.GetAxis(InputAxis) < -0.6f && !chugging)
                 {
                     StartCoroutine(ChugBucket());
                 }
@@ -76,7 +76,7 @@ public class Bucket_Chug : MonoBehaviour
                 }
             }
             else {
-                if (Input.GetAxis("Vertical") < -0.8f && !chugging)
+                if (Input.GetAxis("Vertical") < -0.6f && !chugging)
                 {
                     StartCoroutine(ChugBucket());
                 }
