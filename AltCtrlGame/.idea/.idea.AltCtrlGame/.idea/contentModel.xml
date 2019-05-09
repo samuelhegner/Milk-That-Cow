@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Gary\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Gary\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_AltCtrlGame.-2093734328.00" t="ExcludeRecursive" />
-    <e p="E:\Github Projects\AltCtrlGame\AltCtrlGame" t="IncludeRecursive">
+    <e p="C:\Users\oreil\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\oreil\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_AltCtrlGame.-8086393.00" t="ExcludeRecursive" />
+    <e p="C:\Users\oreil\OneDrive\Documents\GitHub\AltCtrlGame\AltCtrlGame" t="IncludeRecursive">
       <e p="AltCtrlGame.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -25,6 +25,7 @@
           <e p="MetaballParticleClass.cs" t="Include" />
           <e p="Metaballs_Simple.shader" t="Include" />
         </e>
+        <e p="MilkSceneChanger.cs" t="Include" />
         <e p="Patrick" t="Include">
           <e p="Scripts" t="Include">
             <e p="MilkBar.cs" t="Include" />

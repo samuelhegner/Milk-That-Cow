@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -12,13 +12,6 @@ public class DisplayScore : MonoBehaviour
     private void Start()
     {
         SetText(data);
-        StartCoroutine(reLoad());
-    }
-
-    private IEnumerator reLoad()
-    {
-        yield return new WaitForSeconds(10);
-        SceneManager.LoadScene(0);
     }
 
     private void SetText(UIFields data)
@@ -32,7 +25,7 @@ public class DisplayScore : MonoBehaviour
         //Debug.Log(total);
         data.teamNameText.text = data.teamName;
         data.bucketsDrankText.text = "Buckets drank " + scoreData.bucketsDrank;
-        data.milkSpiltText.text = "Milk split " + milkSpilt + " %";
+        data.milkSpiltText.text = "Milk split " + (int)milkSpilt + " %";
         //data.milkProducedText.text = "Milk produced " + scoreData.milkProduced;
         //data.milkCaughtInBucketText.text = "Milk caught " + scoreData.milkCaughtInBucket;
         data.totalScoreText.text = "Total score " + total;
