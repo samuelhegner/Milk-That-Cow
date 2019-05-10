@@ -16,10 +16,15 @@ public class WinnerEffects : MonoBehaviour
     {
         var scoreData = ScoreManager.GetScoreData();
         var winningTeam = scoreData[0];
+        float total = scoreData[0].bucketsDrank * (scoreData[0].milkProduced - scoreData[0].milkSplit);
 
         for (var i = 0; i < scoreData.Length; i++)
-            if (scoreData[i].milkProduced >= winningTeam.milkProduced)
+        {
+            float tempTotal = scoreData[i].bucketsDrank * (scoreData[i].milkProduced - scoreData[i].milkSplit);
+            if (tempTotal > total)
                 winningTeam = scoreData[i];
+        }
+            
 
         for (var i = 0; i < effectData.Length; i++)
             if (winningTeam.teamTag == effectData[i].teamTag)
