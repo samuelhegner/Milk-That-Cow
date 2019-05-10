@@ -35,7 +35,7 @@ public class MilkSceneChanger : MonoBehaviour
                 
             //}
 
-            if (Input.GetAxis(inputAxis1) < -0.8f && Input.GetAxis(inputAxis2) < -0.8f || Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetAxis(inputAxis1) < 0f && Input.GetAxis(inputAxis2) < 0f || Input.GetKeyDown(KeyCode.Space))
             {
                 SceneManager.LoadScene(sceneToLoad);
             }
