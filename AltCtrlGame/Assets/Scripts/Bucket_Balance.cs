@@ -94,6 +94,6 @@ public class Bucket_Balance : MonoBehaviour
         
         float zRot = Game_Manager.Map(forceInput, -maxForce, maxForce, 89f, -89f);
         arrow.rotation = Quaternion.Euler(new Vector3(0, 0, zRot));
-        print(arrow.rotation.eulerAngles);
+
     }
 }
