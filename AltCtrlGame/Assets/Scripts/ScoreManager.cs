@@ -25,8 +25,8 @@ public class ScoreManager : MonoBehaviour
                 return scoreDataArray[i];
 
 
-        Debug.LogError("No valid Score data found");
-        return new ScoreData("");
+        Debug.LogWarning("No valid Score data found");
+        return new ScoreData("NULL");
     }
 
     public static ScoreData[] GetScoreData()
