@@ -26,6 +26,8 @@ public class Game_Manager : MonoBehaviour
     {
         timer = totalTime;
         ChangeObjectState(false);
+
+        //StartCoroutine(Tester());
     }
 
     void Update()
@@ -107,6 +109,19 @@ public class Game_Manager : MonoBehaviour
         }
 
         timerText.transform.localScale = newScale;
+
+    }
+
+    IEnumerator Tester() {
+        yield return new WaitForSeconds(2);
+
+        PipeController[] pipes = GameObject.FindObjectsOfType<PipeController>();
+
+        foreach (PipeController pipe in pipes) {
+
+            pipe.Flip("right");
+
+        }
 
     }
 }
