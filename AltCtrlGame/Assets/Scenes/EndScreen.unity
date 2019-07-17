@@ -830,6 +830,30 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5020099931125894607, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
+    - target: {fileID: 5020099931232900758, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
+    - target: {fileID: 5020099931458324076, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
+    - target: {fileID: 5020099932337974815, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170f4e9114372c342ad56217874343f9, type: 3}
 --- !u!224 &602131135 stripped
@@ -1537,6 +1561,24 @@ PrefabInstance:
       propertyPath: data.teamName
       value: Mooju Crew
       objectReference: {fileID: 0}
+    - target: {fileID: 5020099931125894607, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
+    - target: {fileID: 5020099931232900758, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
+    - target: {fileID: 5020099931458324076, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
     - target: {fileID: 5020099932337974815, guid: 170f4e9114372c342ad56217874343f9,
         type: 3}
       propertyPath: m_Text
@@ -1544,5 +1586,11 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 5020099932337974815, guid: 170f4e9114372c342ad56217874343f9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 914edb7c607758445ba4ca3c90fb530f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170f4e9114372c342ad56217874343f9, type: 3}
