@@ -13,7 +13,7 @@ public class Crowd_Changer : MonoBehaviour
     public GameObject audience1Image;
     public GameObject audience2Image;
 
-    public GameObject mainCamera;
+    //public GameObject mainCamera;
 
     
 
@@ -76,37 +76,42 @@ public class Crowd_Changer : MonoBehaviour
          var firstAudienceMember1 = audience1[0];
          var firstAudienceMember2 = audience2[0];
 
-         //if (Game_Manager.GameIsActive)
-         //{
-         //    Debug.LogWarning("Audience camera disabled while game is active");
-         //    return;
-         //}
+        //if (Game_Manager.GameIsActive)
+        //{
+        //    Debug.LogWarning("Audience camera disabled while game is active");
+        //    return;
+        //}
 
-         if (mainCamera.activeSelf)
-         {
-            
-             if (firstAudienceMember1.currentState != Audience_Member.ViewerState.idle)
-             {
-                 audienceCamera1.SetActive(true);
-                 audience1Image.SetActive(true);
-             }
-             else
-             {
-                 audienceCamera1.SetActive(false);
-                 audience1Image.SetActive(false);
-            }
+        //if (mainCamera.activeSelf)
+        //{
+
+        //    if (firstAudienceMember1.currentState != Audience_Member.ViewerState.idle)
+        //    {
+        //        audienceCamera1.SetActive(true);
+        //        audience1Image.SetActive(true);
+        //    }
+        //    else
+        //    {
+        //        audienceCamera1.SetActive(false);
+        //        audience1Image.SetActive(false);
+        //   }
 
 
-             if (firstAudienceMember2.currentState != Audience_Member.ViewerState.idle)
-             {
-                 audienceCamera2.SetActive(true);
-                 audience2Image.SetActive(true);
-            }
-             else
-             {
-                 audienceCamera2.SetActive(false);
-                 audience2Image.SetActive(false);
-            }
-         }
-     }
+        //    if (firstAudienceMember2.currentState != Audience_Member.ViewerState.idle)
+        //    {
+        //        audienceCamera2.SetActive(true);
+        //        audience2Image.SetActive(true);
+        //   }
+        //    else
+        //    {
+        //        audienceCamera2.SetActive(false);
+        //        audience2Image.SetActive(false);
+        //   }
+        //}
+
+        audienceCamera1.SetActive(false);
+        audience1Image.SetActive(false);
+        audienceCamera2.SetActive(false);
+        audience2Image.SetActive(false);
+    }
 }
