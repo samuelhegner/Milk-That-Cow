@@ -25,7 +25,7 @@ public class DisplayScore : MonoBehaviour
         //Debug.Log(total);
         data.teamNameText.text = data.teamName;
         data.bucketsDrankText.text = "Buckets drank " + scoreData.bucketsDrank;
-        data.milkSpiltText.text = "Milk split " + (int)milkSpilt + " %";
+        data.milkSpiltText.text = "Milk spilt " + (int)milkSpilt + " %";
         //data.milkProducedText.text = "Milk produced " + scoreData.milkProduced;
         //data.milkCaughtInBucketText.text = "Milk caught " + scoreData.milkCaughtInBucket;
         data.totalScoreText.text = "Total score " + total;

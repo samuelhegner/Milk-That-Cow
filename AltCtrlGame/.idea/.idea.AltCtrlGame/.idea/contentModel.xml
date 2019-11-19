@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\oreil\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\oreil\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_AltCtrlGame.-8086393.00" t="ExcludeRecursive" />
-    <e p="C:\Users\oreil\OneDrive\Documents\GitHub\AltCtrlGame\AltCtrlGame" t="IncludeRecursive">
+    <e p="C:\Users\Eoin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Eoin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_AltCtrlGame.-584990305.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Eoin\Documents\GitRepos\AltCtrlGame\AltCtrlGame" t="IncludeRecursive">
       <e p="AltCtrlGame.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -84,12 +84,9 @@
           </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
