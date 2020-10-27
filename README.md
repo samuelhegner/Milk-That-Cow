@@ -11,7 +11,7 @@ A gameplay breakdown and controller showcase can be seen here:
 
 After “Milk! That! Cow!” initial creation, it was showcased in TU Dublin’s end of year game showcase. There, the team and myself were approached to submit the project to Dublin Maker Fair. This is a fair dedicated to showcasing custom creations and inventions. Their website describes the event as “a family-friendly showcase of invention, creativity and resourcefulness, and a celebration of the maker movement”. We showcased the project at the fair in 2019.
 
-picture  of makers fair
+![alt text](Images/Dublin-Maker-Fair-2019-3.jpg)
 
 In late 2019 we decided to submit the game to GDC AltCtrl in San Francisco. For the game submission, we created a Trailer for the game. We decided to embrace the games silly concept and “stupid fun” of the game for the trailer. The trailer was shot in TU Dublin’s AR and VR testing lab in front of a green screen.
 
