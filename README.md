@@ -1,6 +1,8 @@
 # Milk! That! Cow!
 Milk! That! Cow! was a three-week prototype that ended up getting accepted at GDC AltCtrl 2020 (https://gdconf.com/news/check-out-20-unique-games-youll-play-gdc-2020s-altctrlgdc-showcase) and Dublin Makers Fair 2019.
 
+![alt text](Images/Milk!That!Cow!TeamPhoto.jpg)
+
 ## Project Description
 “Milk! That! Cow!” is a competitive milking simulator, where two teams compete to drink the most buckets of milk. The game was made with a custom controller in mind. The custom controller was made out of a disassembled knock off PS3 controller and custom buttons were set up using wires and crocodile clips. The game was made to be played two versus two, with each team sharing a milking booth controller. The idea was centred around a crazy TV show where two teams had to milk a cow as fast as possible in front of a live studio audience.
 
