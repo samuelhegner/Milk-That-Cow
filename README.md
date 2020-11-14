@@ -19,7 +19,7 @@ In late 2019 we decided to submit the game to GDC AltCtrl in San Francisco. For 
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Hv0y5GdfMD8/0.jpg)](https://www.youtube.com/watch?v=Hv0y5GdfMD8 "Milk! That! Cow! Commercial")
 
-The submission got accepted and we planned to fly San Francisco in Spring of 2020. Because of the Covid 19 pandemic, all GDC on-site events were cancelled and our trips with it. However, we are all still incredibly proud of how this silly project and how successful it ended up being.
+The submission got accepted and we planned to fly to San Francisco in Spring of 2020. Because of the Covid 19 pandemic, all GDC on-site events were cancelled and our trips with it. However, we are all still incredibly proud of how this silly project and how successful it ended up being.
 
 ## Usage Help
 Feel free to fork this repo if you want to play around with the project. However, because of the projects Alternate Controller aspect, much of the project’s charm is lost without the two one of a kind milking controllers.
